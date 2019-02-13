@@ -1,2 +1,6 @@
 
+title: api doc experiments with githubio
+author: me
+description: > # this means to ignore newlines until "baseurl:"
+  Experiment away!
 theme: minima
