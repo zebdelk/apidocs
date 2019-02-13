@@ -1325,9 +1325,8 @@ status: string
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |petId|path|integer(int64)|true|ID of pet that needs to be updated|
-|body|body|object|false|none|
-|» name|body|string|false|Updated name of the pet|
-|» status|body|string|false|Updated status of the pet|
+|name|body|string|false|Updated name of the pet|
+|status|body|string|false|Updated status of the pet|
 
 <h3 id="updates-a-pet-in-the-store-with-form-data-responses">Responses</h3>
 
@@ -1665,9 +1664,8 @@ file: string
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |petId|path|integer(int64)|true|ID of pet to update|
-|body|body|object|false|none|
-|» additionalMetadata|body|string|false|Additional data to pass to server|
-|» file|body|string(binary)|false|file to upload|
+|additionalMetadata|body|string|false|Additional data to pass to server|
+|file|body|string(binary)|false|file to upload|
 
 > Example responses
 
@@ -1916,7 +1914,7 @@ const inputBody = '{
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T23:47:32Z",
+  "shipDate": "2019-02-13T23:48:58Z",
   "status": "placed",
   "complete": false
 }';
@@ -2025,7 +2023,7 @@ func main() {
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T23:47:32Z",
+  "shipDate": "2019-02-13T23:48:58Z",
   "status": "placed",
   "complete": false
 }
@@ -2047,7 +2045,7 @@ func main() {
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2019-02-13T23:47:32Z</shipDate>
+  <shipDate>2019-02-13T23:48:58Z</shipDate>
   <status>placed</status>
   <complete>false</complete>
 </Order>
@@ -2058,7 +2056,7 @@ func main() {
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T23:47:32Z",
+  "shipDate": "2019-02-13T23:48:58Z",
   "status": "placed",
   "complete": false
 }
@@ -2228,7 +2226,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2019-02-13T23:47:32Z</shipDate>
+  <shipDate>2019-02-13T23:48:58Z</shipDate>
   <status>placed</status>
   <complete>false</complete>
 </Order>
@@ -2239,7 +2237,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T23:47:32Z",
+  "shipDate": "2019-02-13T23:48:58Z",
   "status": "placed",
   "complete": false
 }
@@ -2731,12 +2729,6 @@ func main() {
   }
 ]
 ```
-
-<h3 id="creates-list-of-users-with-given-input-array-parameters">Parameters</h3>
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|body|body|[UserArray](#schemauserarray)|true|List of user object|
 
 <h3 id="creates-list-of-users-with-given-input-array-responses">Responses</h3>
 
@@ -3541,7 +3533,7 @@ This operation does not require authentication
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T23:47:32Z",
+  "shipDate": "2019-02-13T23:48:58Z",
   "status": "placed",
   "complete": false
 }
