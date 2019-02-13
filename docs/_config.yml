@@ -3,4 +3,4 @@ title: api doc experiments with githubio
 author: me
 description: > # this means to ignore newlines until "baseurl:"
   Experiment away! can it be nested theme thing? so far I've only seen the theme when the root dir is the io page
-remote_theme: Wiredcraft/carte
+remote_theme: pmarsceill/just-the-docs
