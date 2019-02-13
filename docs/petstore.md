@@ -12,7 +12,7 @@ language_tabs:
 toc_footers:
   - '<a href="http://swagger.io">Find out more about Swagger</a>'
 includes: []
-search: true
+search: false
 highlight_theme: darkula
 headingLevel: 2
 
@@ -55,7 +55,7 @@ Everything about your Pets
 
 <a href="http://swagger.io">Find out more</a>
 
-## addPet
+## Add a new pet to the store
 
 <a id="opIdaddPet"></a>
 
@@ -213,8 +213,6 @@ func main() {
 
 `POST /pet`
 
-*Add a new pet to the store*
-
 > Body parameter
 
 ```json
@@ -256,13 +254,13 @@ func main() {
 </Pet>
 ```
 
-<h3 id="addpet-parameters">Parameters</h3>
+<h3 id="add-a-new-pet-to-the-store-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |body|body|[Pet](#schemapet)|true|Pet object that needs to be added to the store|
 
-<h3 id="addpet-responses">Responses</h3>
+<h3 id="add-a-new-pet-to-the-store-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -273,7 +271,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 petstore_auth ( Scopes: write:pets read:pets )
 </aside>
 
-## updatePet
+## Update an existing pet
 
 <a id="opIdupdatePet"></a>
 
@@ -431,8 +429,6 @@ func main() {
 
 `PUT /pet`
 
-*Update an existing pet*
-
 > Body parameter
 
 ```json
@@ -474,13 +470,13 @@ func main() {
 </Pet>
 ```
 
-<h3 id="updatepet-parameters">Parameters</h3>
+<h3 id="update-an-existing-pet-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |body|body|[Pet](#schemapet)|true|Pet object that needs to be added to the store|
 
-<h3 id="updatepet-responses">Responses</h3>
+<h3 id="update-an-existing-pet-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -493,7 +489,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 petstore_auth ( Scopes: write:pets read:pets )
 </aside>
 
-## findPetsByStatus
+## Finds Pets by status
 
 <a id="opIdfindPetsByStatus"></a>
 
@@ -637,11 +633,9 @@ func main() {
 
 `GET /pet/findByStatus`
 
-*Finds Pets by status*
-
 Multiple status values can be provided with comma separated strings
 
-<h3 id="findpetsbystatus-parameters">Parameters</h3>
+<h3 id="finds-pets-by-status-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -698,14 +692,14 @@ Multiple status values can be provided with comma separated strings
 ]
 ```
 
-<h3 id="findpetsbystatus-responses">Responses</h3>
+<h3 id="finds-pets-by-status-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|successful operation|Inline|
 |400|[Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1)|Invalid status value|None|
 
-<h3 id="findpetsbystatus-responseschema">Response Schema</h3>
+<h3 id="finds-pets-by-status-responseschema">Response Schema</h3>
 
 Status Code **200**
 
@@ -736,7 +730,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 petstore_auth ( Scopes: write:pets read:pets )
 </aside>
 
-## findPetsByTags
+## Finds Pets by tags
 
 <a id="opIdfindPetsByTags"></a>
 
@@ -880,11 +874,9 @@ func main() {
 
 `GET /pet/findByTags`
 
-*Finds Pets by tags*
-
 Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
 
-<h3 id="findpetsbytags-parameters">Parameters</h3>
+<h3 id="finds-pets-by-tags-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -933,14 +925,14 @@ Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3
 ]
 ```
 
-<h3 id="findpetsbytags-responses">Responses</h3>
+<h3 id="finds-pets-by-tags-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|successful operation|Inline|
 |400|[Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1)|Invalid tag value|None|
 
-<h3 id="findpetsbytags-responseschema">Response Schema</h3>
+<h3 id="finds-pets-by-tags-responseschema">Response Schema</h3>
 
 Status Code **200**
 
@@ -971,7 +963,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 petstore_auth ( Scopes: write:pets read:pets )
 </aside>
 
-## getPetById
+## Find pet by ID
 
 <a id="opIdgetPetById"></a>
 
@@ -1112,11 +1104,9 @@ func main() {
 
 `GET /pet/{petId}`
 
-*Find pet by ID*
-
 Returns a single pet
 
-<h3 id="getpetbyid-parameters">Parameters</h3>
+<h3 id="find-pet-by-id-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1165,7 +1155,7 @@ Returns a single pet
 }
 ```
 
-<h3 id="getpetbyid-responses">Responses</h3>
+<h3 id="find-pet-by-id-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1178,7 +1168,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 api_key
 </aside>
 
-## updatePetWithForm
+## Updates a pet in the store with form data
 
 <a id="opIdupdatePetWithForm"></a>
 
@@ -1322,8 +1312,6 @@ func main() {
 
 `POST /pet/{petId}`
 
-*Updates a pet in the store with form data*
-
 > Body parameter
 
 ```yaml
@@ -1332,7 +1320,7 @@ status: string
 
 ```
 
-<h3 id="updatepetwithform-parameters">Parameters</h3>
+<h3 id="updates-a-pet-in-the-store-with-form-data-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1341,7 +1329,7 @@ status: string
 |» name|body|string|false|Updated name of the pet|
 |» status|body|string|false|Updated status of the pet|
 
-<h3 id="updatepetwithform-responses">Responses</h3>
+<h3 id="updates-a-pet-in-the-store-with-form-data-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1352,7 +1340,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 petstore_auth ( Scopes: write:pets read:pets )
 </aside>
 
-## deletePet
+## Deletes a pet
 
 <a id="opIddeletePet"></a>
 
@@ -1494,16 +1482,14 @@ func main() {
 
 `DELETE /pet/{petId}`
 
-*Deletes a pet*
-
-<h3 id="deletepet-parameters">Parameters</h3>
+<h3 id="deletes-a-pet-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |api_key|header|string|false|none|
 |petId|path|integer(int64)|true|Pet id to delete|
 
-<h3 id="deletepet-responses">Responses</h3>
+<h3 id="deletes-a-pet-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1515,7 +1501,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 petstore_auth ( Scopes: write:pets read:pets )
 </aside>
 
-## uploadFile
+## uploads an image
 
 <a id="opIduploadFile"></a>
 
@@ -1666,8 +1652,6 @@ func main() {
 
 `POST /pet/{petId}/uploadImage`
 
-*uploads an image*
-
 > Body parameter
 
 ```yaml
@@ -1676,7 +1660,7 @@ file: string
 
 ```
 
-<h3 id="uploadfile-parameters">Parameters</h3>
+<h3 id="uploads-an-image-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -1697,7 +1681,7 @@ file: string
 }
 ```
 
-<h3 id="uploadfile-responses">Responses</h3>
+<h3 id="uploads-an-image-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -1712,7 +1696,7 @@ petstore_auth ( Scopes: write:pets read:pets )
 
 Access to Petstore orders
 
-## getInventory
+## Returns pet inventories by status
 
 <a id="opIdgetInventory"></a>
 
@@ -1853,8 +1837,6 @@ func main() {
 
 `GET /store/inventory`
 
-*Returns pet inventories by status*
-
 Returns a map of status codes to quantities
 
 > Example responses
@@ -1868,13 +1850,13 @@ Returns a map of status codes to quantities
 }
 ```
 
-<h3 id="getinventory-responses">Responses</h3>
+<h3 id="returns-pet-inventories-by-status-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|successful operation|Inline|
 
-<h3 id="getinventory-responseschema">Response Schema</h3>
+<h3 id="returns-pet-inventories-by-status-responseschema">Response Schema</h3>
 
 Status Code **200**
 
@@ -1887,7 +1869,7 @@ To perform this operation, you must be authenticated by means of one of the foll
 api_key
 </aside>
 
-## placeOrder
+## Place an order for a pet
 
 <a id="opIdplaceOrder"></a>
 
@@ -1934,7 +1916,7 @@ const inputBody = '{
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T22:56:12Z",
+  "shipDate": "2019-02-13T23:47:32Z",
   "status": "placed",
   "complete": false
 }';
@@ -2036,8 +2018,6 @@ func main() {
 
 `POST /store/order`
 
-*Place an order for a pet*
-
 > Body parameter
 
 ```json
@@ -2045,13 +2025,13 @@ func main() {
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T22:56:12Z",
+  "shipDate": "2019-02-13T23:47:32Z",
   "status": "placed",
   "complete": false
 }
 ```
 
-<h3 id="placeorder-parameters">Parameters</h3>
+<h3 id="place-an-order-for-a-pet-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2067,7 +2047,7 @@ func main() {
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2019-02-13T22:56:12Z</shipDate>
+  <shipDate>2019-02-13T23:47:32Z</shipDate>
   <status>placed</status>
   <complete>false</complete>
 </Order>
@@ -2078,13 +2058,13 @@ func main() {
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T22:56:12Z",
+  "shipDate": "2019-02-13T23:47:32Z",
   "status": "placed",
   "complete": false
 }
 ```
 
-<h3 id="placeorder-responses">Responses</h3>
+<h3 id="place-an-order-for-a-pet-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2095,7 +2075,7 @@ func main() {
 This operation does not require authentication
 </aside>
 
-## getOrderById
+## Find purchase order by ID
 
 <a id="opIdgetOrderById"></a>
 
@@ -2230,11 +2210,9 @@ func main() {
 
 `GET /store/order/{orderId}`
 
-*Find purchase order by ID*
-
 For valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions
 
-<h3 id="getorderbyid-parameters">Parameters</h3>
+<h3 id="find-purchase-order-by-id-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -2250,7 +2228,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   <id>0</id>
   <petId>0</petId>
   <quantity>0</quantity>
-  <shipDate>2019-02-13T22:56:12Z</shipDate>
+  <shipDate>2019-02-13T23:47:32Z</shipDate>
   <status>placed</status>
   <complete>false</complete>
 </Order>
@@ -2261,13 +2239,13 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T22:56:12Z",
+  "shipDate": "2019-02-13T23:47:32Z",
   "status": "placed",
   "complete": false
 }
 ```
 
-<h3 id="getorderbyid-responses">Responses</h3>
+<h3 id="find-purchase-order-by-id-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2279,7 +2257,7 @@ For valid response try integer IDs with value >= 1 and <= 10. Other values will 
 This operation does not require authentication
 </aside>
 
-## deleteOrder
+## Delete purchase order by ID
 
 <a id="opIddeleteOrder"></a>
 
@@ -2389,17 +2367,15 @@ func main() {
 
 `DELETE /store/order/{orderId}`
 
-*Delete purchase order by ID*
-
 For valid response try integer IDs with positive integer value. Negative or non-integer values will generate API errors
 
-<h3 id="deleteorder-parameters">Parameters</h3>
+<h3 id="delete-purchase-order-by-id-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |orderId|path|integer(int64)|true|ID of the order that needs to be deleted|
 
-<h3 id="deleteorder-responses">Responses</h3>
+<h3 id="delete-purchase-order-by-id-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2416,7 +2392,7 @@ Operations about user
 
 <a href="http://swagger.io">Find out more about our store</a>
 
-## createUser
+## Create user
 
 <a id="opIdcreateUser"></a>
 
@@ -2560,8 +2536,6 @@ func main() {
 
 `POST /user`
 
-*Create user*
-
 This can only be done by the logged in user.
 
 > Body parameter
@@ -2579,13 +2553,13 @@ This can only be done by the logged in user.
 }
 ```
 
-<h3 id="createuser-parameters">Parameters</h3>
+<h3 id="create-user-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |body|body|[User](#schemauser)|true|Created user object|
 
-<h3 id="createuser-responses">Responses</h3>
+<h3 id="create-user-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2595,188 +2569,7 @@ This can only be done by the logged in user.
 This operation does not require authentication
 </aside>
 
-## createUsersWithArrayInput
-
-<a id="opIdcreateUsersWithArrayInput"></a>
-
-> Code samples
-
-```shell
-# You can also use wget
-curl -X POST https://petstore.swagger.io/v2/user/createWithArray \
-  -H 'Content-Type: application/json'
-
-```
-
-```http
-POST https://petstore.swagger.io/v2/user/createWithArray HTTP/1.1
-Host: petstore.swagger.io
-Content-Type: application/json
-
-```
-
-```javascript
-var headers = {
-  'Content-Type':'application/json'
-
-};
-
-$.ajax({
-  url: 'https://petstore.swagger.io/v2/user/createWithArray',
-  method: 'post',
-
-  headers: headers,
-  success: function(data) {
-    console.log(JSON.stringify(data));
-  }
-})
-
-```
-
-```javascript--nodejs
-const fetch = require('node-fetch');
-const inputBody = '[
-  {
-    "id": 0,
-    "username": "string",
-    "firstName": "string",
-    "lastName": "string",
-    "email": "string",
-    "password": "string",
-    "phone": "string",
-    "userStatus": 0
-  }
-]';
-const headers = {
-  'Content-Type':'application/json'
-
-};
-
-fetch('https://petstore.swagger.io/v2/user/createWithArray',
-{
-  method: 'POST',
-  body: inputBody,
-  headers: headers
-})
-.then(function(res) {
-    return res.json();
-}).then(function(body) {
-    console.log(body);
-});
-
-```
-
-```ruby
-require 'rest-client'
-require 'json'
-
-headers = {
-  'Content-Type' => 'application/json'
-}
-
-result = RestClient.post 'https://petstore.swagger.io/v2/user/createWithArray',
-  params: {
-  }, headers: headers
-
-p JSON.parse(result)
-
-```
-
-```python
-import requests
-headers = {
-  'Content-Type': 'application/json'
-}
-
-r = requests.post('https://petstore.swagger.io/v2/user/createWithArray', params={
-
-}, headers = headers)
-
-print r.json()
-
-```
-
-```java
-URL obj = new URL("https://petstore.swagger.io/v2/user/createWithArray");
-HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-con.setRequestMethod("POST");
-int responseCode = con.getResponseCode();
-BufferedReader in = new BufferedReader(
-    new InputStreamReader(con.getInputStream()));
-String inputLine;
-StringBuffer response = new StringBuffer();
-while ((inputLine = in.readLine()) != null) {
-    response.append(inputLine);
-}
-in.close();
-System.out.println(response.toString());
-
-```
-
-```go
-package main
-
-import (
-       "bytes"
-       "net/http"
-)
-
-func main() {
-
-    headers := map[string][]string{
-        "Content-Type": []string{"application/json"},
-        
-    }
-
-    data := bytes.NewBuffer([]byte{jsonReq})
-    req, err := http.NewRequest("POST", "https://petstore.swagger.io/v2/user/createWithArray", data)
-    req.Header = headers
-
-    client := &http.Client{}
-    resp, err := client.Do(req)
-    // ...
-}
-
-```
-
-`POST /user/createWithArray`
-
-*Creates list of users with given input array*
-
-> Body parameter
-
-```json
-[
-  {
-    "id": 0,
-    "username": "string",
-    "firstName": "string",
-    "lastName": "string",
-    "email": "string",
-    "password": "string",
-    "phone": "string",
-    "userStatus": 0
-  }
-]
-```
-
-<h3 id="createuserswitharrayinput-parameters">Parameters</h3>
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|body|body|[UserArray](#schemauserarray)|true|List of user object|
-
-<h3 id="createuserswitharrayinput-responses">Responses</h3>
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|default|Default|successful operation|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-## createUsersWithListInput
+## Creates list of users with given input array
 
 <a id="opIdcreateUsersWithListInput"></a>
 
@@ -2922,8 +2715,6 @@ func main() {
 
 `POST /user/createWithList`
 
-*Creates list of users with given input array*
-
 > Body parameter
 
 ```json
@@ -2941,13 +2732,13 @@ func main() {
 ]
 ```
 
-<h3 id="createuserswithlistinput-parameters">Parameters</h3>
+<h3 id="creates-list-of-users-with-given-input-array-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |body|body|[UserArray](#schemauserarray)|true|List of user object|
 
-<h3 id="createuserswithlistinput-responses">Responses</h3>
+<h3 id="creates-list-of-users-with-given-input-array-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -2957,7 +2748,7 @@ func main() {
 This operation does not require authentication
 </aside>
 
-## loginUser
+## Logs user into the system
 
 <a id="opIdloginUser"></a>
 
@@ -3094,9 +2885,7 @@ func main() {
 
 `GET /user/login`
 
-*Logs user into the system*
-
-<h3 id="loginuser-parameters">Parameters</h3>
+<h3 id="logs-user-into-the-system-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -3111,7 +2900,7 @@ func main() {
 "string"
 ```
 
-<h3 id="loginuser-responses">Responses</h3>
+<h3 id="logs-user-into-the-system-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -3129,7 +2918,7 @@ func main() {
 This operation does not require authentication
 </aside>
 
-## logoutUser
+## Logs out current logged in user session
 
 <a id="opIdlogoutUser"></a>
 
@@ -3239,9 +3028,7 @@ func main() {
 
 `GET /user/logout`
 
-*Logs out current logged in user session*
-
-<h3 id="logoutuser-responses">Responses</h3>
+<h3 id="logs-out-current-logged-in-user-session-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -3251,7 +3038,7 @@ func main() {
 This operation does not require authentication
 </aside>
 
-## getUserByName
+## Get user by user name
 
 <a id="opIdgetUserByName"></a>
 
@@ -3386,9 +3173,7 @@ func main() {
 
 `GET /user/{username}`
 
-*Get user by user name*
-
-<h3 id="getuserbyname-parameters">Parameters</h3>
+<h3 id="get-user-by-user-name-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -3425,7 +3210,7 @@ func main() {
 }
 ```
 
-<h3 id="getuserbyname-responses">Responses</h3>
+<h3 id="get-user-by-user-name-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -3437,7 +3222,7 @@ func main() {
 This operation does not require authentication
 </aside>
 
-## updateUser
+## Updated user
 
 <a id="opIdupdateUser"></a>
 
@@ -3581,8 +3366,6 @@ func main() {
 
 `PUT /user/{username}`
 
-*Updated user*
-
 This can only be done by the logged in user.
 
 > Body parameter
@@ -3600,14 +3383,14 @@ This can only be done by the logged in user.
 }
 ```
 
-<h3 id="updateuser-parameters">Parameters</h3>
+<h3 id="updated-user-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |username|path|string|true|name that need to be updated|
 |body|body|[User](#schemauser)|true|Updated user object|
 
-<h3 id="updateuser-responses">Responses</h3>
+<h3 id="updated-user-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -3618,7 +3401,7 @@ This can only be done by the logged in user.
 This operation does not require authentication
 </aside>
 
-## deleteUser
+## Delete user
 
 <a id="opIddeleteUser"></a>
 
@@ -3728,17 +3511,15 @@ func main() {
 
 `DELETE /user/{username}`
 
-*Delete user*
-
 This can only be done by the logged in user.
 
-<h3 id="deleteuser-parameters">Parameters</h3>
+<h3 id="delete-user-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |username|path|string|true|The name that needs to be deleted|
 
-<h3 id="deleteuser-responses">Responses</h3>
+<h3 id="delete-user-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -3760,7 +3541,7 @@ This operation does not require authentication
   "id": 0,
   "petId": 0,
   "quantity": 0,
-  "shipDate": "2019-02-13T22:56:12Z",
+  "shipDate": "2019-02-13T23:47:32Z",
   "status": "placed",
   "complete": false
 }
