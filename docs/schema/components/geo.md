@@ -1,15 +1,16 @@
 
-#  Schema
+# Geometry Schema
 
 ```
 ```
 
+Schemas for GeoJson
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
 | Cannot be instantiated | Yes | Experimental | No | Forbidden | Permitted | [schema/components/geo.json](schema/components/geo.json) |
 
-#  Definitions
+# Geometry Definitions
 
 | Property | Type | Group |
 |----------|------|-------|

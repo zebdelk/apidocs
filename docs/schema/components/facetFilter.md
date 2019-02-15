@@ -1,5 +1,5 @@
 
-#  Schema
+# Facet Filter Schema
 
 ```
 ```
@@ -10,13 +10,13 @@ Filters results based on given GCMD keywords where returned results MUST have th
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/facetFilter.json](schema/components/facetFilter.json) |
 
-#  Properties
+# Facet Filter Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [name](#name) | `enum` | **Required** |  (this schema) |
-| [type](#type) | `enum` | **Required** |  (this schema) |
-| [values](#values) | `string[]` | **Required** |  (this schema) |
+| [name](#name) | `enum` | **Required** | Facet Filter (this schema) |
+| [type](#type) | `enum` | **Required** | Facet Filter (this schema) |
+| [values](#values) | `string[]` | **Required** | Facet Filter (this schema) |
 
 ## name
 

@@ -1,5 +1,5 @@
 
-#  Schema
+# Text Query Schema
 
 ```
 ```
@@ -10,12 +10,12 @@ Text query to search with that is valid so long as it does not have a leading wi
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/textQuery.json](schema/components/textQuery.json) |
 
-#  Properties
+# Text Query Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [type](#type) | `enum` | **Required** |  (this schema) |
-| [value](#value) | `string` | **Required** |  (this schema) |
+| [type](#type) | `enum` | **Required** | Text Query (this schema) |
+| [value](#value) | `string` | **Required** | Text Query (this schema) |
 
 ## type
 

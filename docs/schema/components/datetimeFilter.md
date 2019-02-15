@@ -1,22 +1,23 @@
 
-#  Schema
+# Datetime Filter Schema
 
 ```
 ```
 
+Filter results by before, after, or a date range.
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/datetimeFilter.json](schema/components/datetimeFilter.json) |
 
-#  Properties
+# Datetime Filter Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [after](#after) | `string` | Optional |  (this schema) |
-| [before](#before) | `string` | Optional |  (this schema) |
-| [relation](#relation) | `enum` | Optional |  (this schema) |
-| [type](#type) | `enum` | **Required** |  (this schema) |
+| [after](#after) | `string` | Optional | Datetime Filter (this schema) |
+| [before](#before) | `string` | Optional | Datetime Filter (this schema) |
+| [relation](#relation) | `enum` | Optional | Datetime Filter (this schema) |
+| [type](#type) | `enum` | **Required** | Datetime Filter (this schema) |
 
 ## after
 

@@ -1,5 +1,5 @@
 
-#  Schema
+# Query Schema
 
 ```
 ```

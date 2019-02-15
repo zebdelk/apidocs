@@ -1,5 +1,5 @@
 
-#  Schema
+# Geometry Filter Schema
 
 ```
 ```
@@ -10,13 +10,13 @@ Filter that returns results whose bounding geometry contains the specified geogr
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/geometryFilter.json](schema/components/geometryFilter.json) |
 
-#  Properties
+# Geometry Filter Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [geometry](#geometry) | reference | **Required** |  (this schema) |
-| [relation](#relation) | `enum` | Optional |  (this schema) |
-| [type](#type) | `enum` | **Required** |  (this schema) |
+| [geometry](#geometry) | reference | **Required** | Geometry Filter (this schema) |
+| [relation](#relation) | `enum` | Optional | Geometry Filter (this schema) |
+| [type](#type) | `enum` | **Required** | Geometry Filter (this schema) |
 
 ## geometry
 

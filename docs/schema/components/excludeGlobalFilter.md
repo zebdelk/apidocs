@@ -1,5 +1,5 @@
 
-#  Schema
+# Exclude Global Filter Schema
 
 ```
 ```
@@ -10,12 +10,12 @@ Flag to request that geospatially global results be excluded. Defaults to false 
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/excludeGlobalFilter.json](schema/components/excludeGlobalFilter.json) |
 
-#  Properties
+# Exclude Global Filter Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [type](#type) | `enum` | **Required** |  (this schema) |
-| [value](#value) | `boolean` | **Required** |  (this schema) |
+| [type](#type) | `enum` | **Required** | Exclude Global Filter (this schema) |
+| [value](#value) | `boolean` | **Required** | Exclude Global Filter (this schema) |
 
 ## type
 
