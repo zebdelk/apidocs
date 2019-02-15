@@ -69,7 +69,6 @@ _No headers specified_
 ###### application/json
 
 
-
 [](.)
 
 <table>
@@ -260,7 +259,6 @@ _No headers specified_
 ###### application/json
 
 
-
 [](.)
 
 <table>
@@ -345,7 +343,6 @@ Retrieve collection metadata records matching the text query string, spatial, an
 [object Object]
 
 ###### application/json
-
 
 
 
@@ -552,7 +549,6 @@ _No headers specified_
 ###### application/json
 
 
-
 [](.)
 
 <table>
@@ -664,7 +660,6 @@ _No headers specified_
 
 ## Schemas
 
-<a id="" />
 
 #### fullCollectionResponse
 
@@ -722,7 +717,6 @@ _No headers specified_
   ]
 }
 ```
-<a id="" />
 
 #### collectionMetadataObject
 
@@ -756,7 +750,6 @@ _No headers specified_
   "totalGranules": 0
 }
 ```
-<a id="" />
 
 #### collectionDataObject
 
