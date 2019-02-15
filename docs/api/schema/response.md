@@ -1,6 +1,3 @@
 
 # Response Schema
 
-```
-```
-

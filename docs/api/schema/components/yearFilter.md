@@ -1,9 +1,6 @@
 
 # Year Filter Schema
 
-```
-```
-
 Filter results by before, after, or a date range. Differs from the Datetime Filter in that it handles year values only.
 
 # Year Filter Properties

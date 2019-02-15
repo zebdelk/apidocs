@@ -1,9 +1,6 @@
 
 # Filter Schema
 
-```
-```
-
 
 
 **One** of the following *conditions* need to be fulfilled.

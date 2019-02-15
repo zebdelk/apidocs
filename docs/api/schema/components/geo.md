@@ -1,16 +1,13 @@
 
 # Geometry Schema
 
-```
-```
-
 Schemas for GeoJson
 
 # Geometry Definitions
 
 | Property | Type | Group |
 |----------|------|-------|
-| [coordinates](#coordinates) | reference | `#/definitions/MultiPolygon` |
+| [coordinates](#coordinates) | [polygon](geo.md#/definitions/polygon) | `#/definitions/MultiPolygon` |
 | [type](#type) | `enum` | `#/definitions/MultiPolygon` |
 
 ## coordinates
@@ -19,13 +16,13 @@ Schemas for GeoJson
 `coordinates`
 
 * is optional
-* type: reference
+* type: [polygon](geo.md#/definitions/polygon)
 * defined in this schema
 
 ### coordinates Type
 
 
-Array type: reference
+Array type: [polygon](geo.md#/definitions/polygon)
 
 All items must be of the type:
 

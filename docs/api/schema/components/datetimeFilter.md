@@ -1,9 +1,6 @@
 
 # Datetime Filter Schema
 
-```
-```
-
 Filter results by before, after, or a date range.
 
 # Datetime Filter Properties

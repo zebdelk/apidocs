@@ -1,9 +1,6 @@
 
 # Query Schema
 
-```
-```
-
 
 
 **One** of the following *conditions* need to be fulfilled.

@@ -1,9 +1,6 @@
 
 # Facet Filter Schema
 
-```
-```
-
 Filters results based on given GCMD keywords where returned results MUST have the specified keyword. Multiple facetFilter objects will be combined with logical AND; multiple values in a single facetFilter object will be combined with the logical OR.
 
 # Facet Filter Properties

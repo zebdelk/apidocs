@@ -1,9 +1,6 @@
 
 # Search Request Schema
 
-```
-```
-
 The shape of a search request body that can be sent to the OneStop API to execute a search against available metadata. Collections are returned by default unless a collection filter is included, resulting in granules being returned.
 
 # Search Request Properties
@@ -11,9 +8,9 @@ The shape of a search request body that can be sent to the OneStop API to execut
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
 | [facets](#facets) | `boolean` | Optional | Search Request (this schema) |
-| [filters](#filters) | reference | Optional | Search Request (this schema) |
+| [filters](#filters) | [filter](components/filter.md) | Optional | Search Request (this schema) |
 | [page](#page) | `object` | Optional | Search Request (this schema) |
-| [queries](#queries) | reference | Optional | Search Request (this schema) |
+| [queries](#queries) | [query](components/query.md) | Optional | Search Request (this schema) |
 | [summary](#summary) | `boolean` | Optional | Search Request (this schema) |
 
 ## facets
@@ -41,13 +38,13 @@ Flag to request counts of results by GCMD keywords in addition to results. Defau
 `filters`
 
 * is optional
-* type: reference
+* type: [filter](components/filter.md)
 * defined in this schema
 
 ### filters Type
 
 
-Array type: reference
+Array type: [filter](components/filter.md)
 
 All items must be of the type:
 
@@ -137,13 +134,13 @@ Number of records by which to offset results. If the page object is not provided
 `queries`
 
 * is optional
-* type: reference
+* type: [query](components/query.md)
 * defined in this schema
 
 ### queries Type
 
 
-Array type: reference
+Array type: [query](components/query.md)
 
 All items must be of the type:
 

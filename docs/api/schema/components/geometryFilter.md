@@ -1,16 +1,13 @@
 
 # Geometry Filter Schema
 
-```
-```
-
 Filter that returns results whose bounding geometry contains the specified geographical coordinate.
 
 # Geometry Filter Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [geometry](#geometry) | reference | **Required** | Geometry Filter (this schema) |
+| [geometry](#geometry) | [Geometry](geo.md#/Geometry) | **Required** | Geometry Filter (this schema) |
 | [relation](#relation) | `enum` | Optional | Geometry Filter (this schema) |
 | [type](#type) | `enum` | **Required** | Geometry Filter (this schema) |
 
@@ -20,7 +17,7 @@ Filter that returns results whose bounding geometry contains the specified geogr
 `geometry`
 
 * is **required**
-* type: reference
+* type: [Geometry](geo.md#/Geometry)
 * defined in this schema
 
 ### geometry Type

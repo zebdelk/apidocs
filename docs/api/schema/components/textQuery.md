@@ -1,9 +1,6 @@
 
 # Text Query Schema
 
-```
-```
-
 Text query to search with that is valid so long as it does not have a leading wildcard ('*' or '?')
 
 # Text Query Properties

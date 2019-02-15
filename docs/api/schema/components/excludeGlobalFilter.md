@@ -1,9 +1,6 @@
 
 # Exclude Global Filter Schema
 
-```
-```
-
 Flag to request that geospatially global results be excluded. Defaults to false if not provided.
 
 # Exclude Global Filter Properties

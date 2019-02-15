@@ -1,9 +1,6 @@
 
 # Collection Filter Schema
 
-```
-```
-
 Collections to filter results by (logical OR if multiple filters or multiple values in one filter). If any collection filters are provided, granules are returned.
 
 # Collection Filter Properties
