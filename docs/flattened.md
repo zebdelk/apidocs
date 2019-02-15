@@ -4,7 +4,7 @@ Flattened granules are a representation of the granules which inherit all the me
 
 ## Table of Contents
 
-* [Paths](#paths)
+* Paths
   - [`HEAD` /flattened-granule](#op-head-flattened-granule) 
   - [`GET` /flattened-granule](#op-get-flattened-granule) 
   - [`HEAD` /flattened-granule/{id}](#op-head-flattened-granule-id) 
@@ -17,7 +17,7 @@ Flattened granules are a representation of the granules which inherit all the me
 ## Paths
 
 ### <span id="op-head-flattened-granule" > `HEAD` /flattened-granule </span>
-> Get Flattened Granule Info
+Get Flattened Granule Info
 
 
 
@@ -30,7 +30,7 @@ Flattened granules are a representation of the granules which inherit all the me
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -41,10 +41,9 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-get-flattened-granule" > `GET` /flattened-granule </span>
-> Get Flattened Granule Info
+Get Flattened Granule Info
 
 
 
@@ -57,7 +56,7 @@ _No headers specified_
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -131,15 +130,14 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-head-flattened-granule-id" > `HEAD` /flattened-granule/{id} </span>
-> Flattened Granule by ID
+Flattened Granule by ID
 
 
 #### Path parameters
 
-##### &#9655; id
+##### id
 
 UUID of the flattened granule
 
@@ -178,13 +176,13 @@ UUID of the flattened granule
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
 
 
-##### ▶ 404 - Request Parsing Error
+##### 404 - Request Parsing Error
 
 ###### Headers
 _No headers specified_
@@ -194,16 +192,15 @@ _No headers specified_
 
 <div class="tags">
   <div class="tags__tag"></div>
-</div>
 </div>
 
 ### <span id="op-get-flattened-granule-id" > `GET` /flattened-granule/{id} </span>
-> Flattened Granule by ID
+Flattened Granule by ID
 
 
 #### Path parameters
 
-##### &#9655; id
+##### id
 
 UUID of the flattened granule
 
@@ -242,13 +239,13 @@ UUID of the flattened granule
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
 
 
-##### ▶ 404 - Request Parsing Error
+##### 404 - Request Parsing Error
 
 ###### Headers
 _No headers specified_
@@ -259,10 +256,9 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-post-search-flattened-granule" > `POST` /search/flattened-granule </span>
-> Retrieve flattened granule metadata
+Retrieve flattened granule metadata
 
 Retrieve flattened granule metadata records matching the text query string, spatial, and/or temporal filter.
 
@@ -271,7 +267,6 @@ Retrieve flattened granule metadata records matching the text query string, spat
 
 
 #### Request body
-[object Object]
 
 ###### application/json
 
@@ -362,8 +357,8 @@ Retrieve flattened granule metadata records matching the text query string, spat
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T19:42:13Z",
-      "after": "2019-02-15T19:42:13Z",
+      "before": "2019-02-15T19:52:22Z",
+      "after": "2019-02-15T19:52:22Z",
       "relation": "contains"
     }
   ],
@@ -383,7 +378,7 @@ Retrieve flattened granule metadata records matching the text query string, spat
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -486,7 +481,7 @@ _No headers specified_
 }
 ```
 
-##### ▶ 400 - Bad Request
+##### 400 - Bad Request
 
 ###### Headers
 _No headers specified_
@@ -496,6 +491,5 @@ _No headers specified_
 
 <div class="tags">
   <div class="tags__tag"></div>
-</div>
 </div>
 

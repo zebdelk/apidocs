@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-* [Paths](#paths)
+* Paths
   - [`HEAD` /granule](#op-head-granule) 
   - [`GET` /granule](#op-get-granule) 
   - [`HEAD` /granule/{id}](#op-head-granule-id) 
@@ -17,7 +17,7 @@
 ## Paths
 
 ### <span id="op-head-granule" > `HEAD` /granule </span>
-> Get Granule Info
+Get Granule Info
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -41,10 +41,9 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-get-granule" > `GET` /granule </span>
-> Get Granule Info
+Get Granule Info
 
 
 
@@ -57,7 +56,7 @@ _No headers specified_
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -131,15 +130,14 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-head-granule-id" > `HEAD` /granule/{id} </span>
-> Granule by ID
+Granule by ID
 
 
 #### Path parameters
 
-##### &#9655; id
+##### id
 
 UUID of the granule
 
@@ -178,13 +176,13 @@ UUID of the granule
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
 
 
-##### ▶ 404 - Request Parsing Error
+##### 404 - Request Parsing Error
 
 ###### Headers
 _No headers specified_
@@ -194,16 +192,15 @@ _No headers specified_
 
 <div class="tags">
   <div class="tags__tag"></div>
-</div>
 </div>
 
 ### <span id="op-get-granule-id" > `GET` /granule/{id} </span>
-> Granule by ID
+Granule by ID
 
 
 #### Path parameters
 
-##### &#9655; id
+##### id
 
 UUID of the granule
 
@@ -242,13 +239,13 @@ UUID of the granule
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
 
 
-##### ▶ 404 - Request Parsing Error
+##### 404 - Request Parsing Error
 
 ###### Headers
 _No headers specified_
@@ -259,10 +256,9 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-post-search-granule" > `POST` /search/granule </span>
-> Retrieve granule metadata
+Retrieve granule metadata
 
 Retrieve granule metadata records matching the text query string, spatial, and/or temporal filter.
 
@@ -271,7 +267,6 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
 
 
 #### Request body
-[object Object]
 
 ###### application/json
 
@@ -362,8 +357,8 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T19:42:12Z",
-      "after": "2019-02-15T19:42:12Z",
+      "before": "2019-02-15T19:52:21Z",
+      "after": "2019-02-15T19:52:21Z",
       "relation": "contains"
     }
   ],
@@ -383,7 +378,7 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -486,7 +481,7 @@ _No headers specified_
 }
 ```
 
-##### ▶ 400 - Bad Request
+##### 400 - Bad Request
 
 ###### Headers
 _No headers specified_
@@ -496,6 +491,5 @@ _No headers specified_
 
 <div class="tags">
   <div class="tags__tag"></div>
-</div>
 </div>
 

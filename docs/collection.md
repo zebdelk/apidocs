@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-* [Paths](#paths)
+* Paths
   - [`HEAD` /collection](#op-head-collection) 
   - [`GET` /collection](#op-get-collection) 
   - [`HEAD` /collection/{id}](#op-head-collection-id) 
@@ -17,7 +17,7 @@
 ## Paths
 
 ### <span id="op-head-collection" > `HEAD` /collection </span>
-> Get Collection Info
+Get Collection Info
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -41,10 +41,9 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-get-collection" > `GET` /collection </span>
-> Get Collection Info
+Get Collection Info
 
 
 
@@ -57,7 +56,7 @@ _No headers specified_
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -131,15 +130,14 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-head-collection-id" > `HEAD` /collection/{id} </span>
-> Collection by ID
+Collection by ID
 
 
 #### Path parameters
 
-##### &#9655; id
+##### id
 
 UUID of the collection
 
@@ -178,13 +176,13 @@ UUID of the collection
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
 
 
-##### ▶ 404 - Request Parsing Error
+##### 404 - Request Parsing Error
 
 ###### Headers
 _No headers specified_
@@ -195,15 +193,14 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-get-collection-id" > `GET` /collection/{id} </span>
-> Collection by ID
+Collection by ID
 
 
 #### Path parameters
 
-##### &#9655; id
+##### id
 
 UUID of the collection
 
@@ -242,7 +239,7 @@ UUID of the collection
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -305,7 +302,7 @@ _No headers specified_
 }
 ```
 
-##### ▶ 404 - Request Parsing Error
+##### 404 - Request Parsing Error
 
 ###### Headers
 _No headers specified_
@@ -316,10 +313,9 @@ _No headers specified_
 <div class="tags">
   <div class="tags__tag"></div>
 </div>
-</div>
 
 ### <span id="op-post-search-collection" > `POST` /search/collection </span>
-> Retrieve collection metadata
+Retrieve collection metadata
 
 Retrieve collection metadata records matching the text query string, spatial, and/or temporal filter.
 
@@ -328,7 +324,6 @@ Retrieve collection metadata records matching the text query string, spatial, an
 
 
 #### Request body
-[object Object]
 
 ###### application/json
 
@@ -529,7 +524,7 @@ Retrieve collection metadata records matching the text query string, spatial, an
 
 
 
-##### ▶ 200 - Successful operation
+##### 200 - Successful operation
 
 ###### Headers
 _No headers specified_
@@ -632,7 +627,7 @@ _No headers specified_
 }
 ```
 
-##### ▶ 400 - Bad Request
+##### 400 - Bad Request
 
 ###### Headers
 _No headers specified_
@@ -642,7 +637,6 @@ _No headers specified_
 
 <div class="tags">
   <div class="tags__tag"></div>
-</div>
 </div>
 
 ## Schemas
