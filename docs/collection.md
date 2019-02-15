@@ -5,11 +5,11 @@
 ## Table of Contents
 
 * [Paths](#paths)
-  - [`HEAD` /collection](#op-head-collection)
-  - [`GET` /collection](#op-get-collection)
-  - [`HEAD` /collection/{id}](#op-head-collection-id)
-  - [`GET` /collection/{id}](#op-get-collection-id)
-  - [`POST` /search/collection](#op-post-search-collection)
+  - [`HEAD` /collection](#op-head-collection) 
+  - [`GET` /collection](#op-get-collection) 
+  - [`HEAD` /collection/{id}](#op-head-collection-id) 
+  - [`GET` /collection/{id}](#op-get-collection-id) 
+  - [`POST` /search/collection](#op-post-search-collection) 
 
 
 
@@ -65,7 +65,6 @@ _No headers specified_
 ###### application/json
 
 
-[](.)
 
 <table>
   <thead>
@@ -251,7 +250,6 @@ _No headers specified_
 ###### application/json
 
 
-[](.)
 
 <table>
   <thead>
@@ -539,7 +537,6 @@ _No headers specified_
 ###### application/json
 
 
-[](.)
 
 <table>
   <thead>
@@ -653,7 +650,6 @@ _No headers specified_
 
 #### fullCollectionResponse
 
-[](.)
 
 <table>
   <thead>
@@ -710,7 +706,6 @@ _No headers specified_
 
 #### collectionMetadataObject
 
-[](.)
 
 <table>
   <thead>
@@ -743,7 +738,6 @@ _No headers specified_
 
 #### collectionDataObject
 
-[](.)
 
 <table>
   <thead>

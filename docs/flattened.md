@@ -65,7 +65,6 @@ _No headers specified_
 ###### application/json
 
 
-[](.)
 
 <table>
   <thead>
@@ -363,8 +362,8 @@ Retrieve flattened granule metadata records matching the text query string, spat
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T19:35:06Z",
-      "after": "2019-02-15T19:35:06Z",
+      "before": "2019-02-15T19:42:13Z",
+      "after": "2019-02-15T19:42:13Z",
       "relation": "contains"
     }
   ],
@@ -392,7 +391,6 @@ _No headers specified_
 ###### application/json
 
 
-[](.)
 
 <table>
   <thead>

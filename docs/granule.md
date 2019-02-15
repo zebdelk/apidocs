@@ -65,7 +65,6 @@ _No headers specified_
 ###### application/json
 
 
-[](.)
 
 <table>
   <thead>
@@ -363,8 +362,8 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T19:35:04Z",
-      "after": "2019-02-15T19:35:04Z",
+      "before": "2019-02-15T19:42:12Z",
+      "after": "2019-02-15T19:42:12Z",
       "relation": "contains"
     }
   ],
@@ -392,7 +391,6 @@ _No headers specified_
 ###### application/json
 
 
-[](.)
 
 <table>
   <thead>
