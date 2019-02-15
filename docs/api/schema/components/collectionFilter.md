@@ -5,10 +5,10 @@ Collections to filter results by (logical OR if multiple filters or multiple val
 
 # Collection Filter Properties
 
-| Property | Type | Required | Defined by |
-|----------|------|----------|------------|
-| [type](#type) | `enum` | **Required** | Collection Filter (this schema) |
-| [values](#values) | `array`: `string[]` | **Required** | Collection Filter (this schema) |
+| Property | Type | Required |
+|----------|------|----------|
+| [type](#type) | `enum` | **Required** |
+| [values](#values) | `array`: `string[]` | **Required** |
 
 ## type
 

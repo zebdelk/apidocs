@@ -5,12 +5,12 @@ Filter results by before, after, or a date range. Differs from the Datetime Filt
 
 # Year Filter Properties
 
-| Property | Type | Required | Defined by |
-|----------|------|----------|------------|
-| [after](#after) | `number` | Optional | Year Filter (this schema) |
-| [before](#before) | `number` | Optional | Year Filter (this schema) |
-| [relation](#relation) | `enum` | Optional | Year Filter (this schema) |
-| [type](#type) | `enum` | **Required** | Year Filter (this schema) |
+| Property | Type | Required |
+|----------|------|----------|
+| [after](#after) | `number` | Optional |
+| [before](#before) | `number` | Optional |
+| [relation](#relation) | `enum` | Optional |
+| [type](#type) | `enum` | **Required** |
 
 ## after
 

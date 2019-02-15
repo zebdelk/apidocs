@@ -5,11 +5,11 @@ Filters results based on given GCMD keywords where returned results MUST have th
 
 # Facet Filter Properties
 
-| Property | Type | Required | Defined by |
-|----------|------|----------|------------|
-| [name](#name) | `enum` | **Required** | Facet Filter (this schema) |
-| [type](#type) | `enum` | **Required** | Facet Filter (this schema) |
-| [values](#values) | `array`: `string[]` | **Required** | Facet Filter (this schema) |
+| Property | Type | Required |
+|----------|------|----------|
+| [name](#name) | `enum` | **Required** |
+| [type](#type) | `enum` | **Required** |
+| [values](#values) | `array`: `string[]` | **Required** |
 
 ## name
 

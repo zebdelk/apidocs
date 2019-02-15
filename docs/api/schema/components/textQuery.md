@@ -5,10 +5,10 @@ Text query to search with that is valid so long as it does not have a leading wi
 
 # Text Query Properties
 
-| Property | Type | Required | Defined by |
-|----------|------|----------|------------|
-| [type](#type) | `enum` | **Required** | Text Query (this schema) |
-| [value](#value) | `string` | **Required** | Text Query (this schema) |
+| Property | Type | Required |
+|----------|------|----------|
+| [type](#type) | `enum` | **Required** |
+| [value](#value) | `string` | **Required** |
 
 ## type
 

@@ -5,11 +5,11 @@ Filter that returns results whose bounding geometry contains the specified geogr
 
 # Geometry Filter Properties
 
-| Property | Type | Required | Defined by |
-|----------|------|----------|------------|
-| [geometry](#geometry) | [Geometry](geo.md#/Geometry) | **Required** | Geometry Filter (this schema) |
-| [relation](#relation) | `enum` | Optional | Geometry Filter (this schema) |
-| [type](#type) | `enum` | **Required** | Geometry Filter (this schema) |
+| Property | Type | Required |
+|----------|------|----------|
+| [geometry](#geometry) | [Geometry](geo.md#/Geometry) | **Required** |
+| [relation](#relation) | `enum` | Optional |
+| [type](#type) | `enum` | **Required** |
 
 ## geometry
 

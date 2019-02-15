@@ -5,10 +5,10 @@ Flag to request that geospatially global results be excluded. Defaults to false 
 
 # Exclude Global Filter Properties
 
-| Property | Type | Required | Defined by |
-|----------|------|----------|------------|
-| [type](#type) | `enum` | **Required** | Exclude Global Filter (this schema) |
-| [value](#value) | `boolean` | **Required** | Exclude Global Filter (this schema) |
+| Property | Type | Required |
+|----------|------|----------|
+| [type](#type) | `enum` | **Required** |
+| [value](#value) | `boolean` | **Required** |
 
 ## type
 

@@ -5,13 +5,13 @@ The shape of a search request body that can be sent to the OneStop API to execut
 
 # Search Request Properties
 
-| Property | Type | Required | Defined by |
-|----------|------|----------|------------|
-| [facets](#facets) | `boolean` | Optional | Search Request (this schema) |
-| [filters](#filters) | `array`: [filter](components/filter.md) | Optional | Search Request (this schema) |
-| [page](#page) | `object` | Optional | Search Request (this schema) |
-| [queries](#queries) | `array`: [query](components/query.md) | Optional | Search Request (this schema) |
-| [summary](#summary) | `boolean` | Optional | Search Request (this schema) |
+| Property | Type | Required |
+|----------|------|----------|
+| [facets](#facets) | `boolean` | Optional |
+| [filters](#filters) | `array`: [filter](components/filter.md) | Optional |
+| [page](#page) | `object` | Optional |
+| [queries](#queries) | `array`: [query](components/query.md) | Optional |
+| [summary](#summary) | `boolean` | Optional |
 
 ## facets
 
