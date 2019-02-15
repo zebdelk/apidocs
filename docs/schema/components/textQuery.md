@@ -8,7 +8,7 @@ Text query to search with that is valid so long as it does not have a leading wi
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/textQuery.json](schema/components/textQuery.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [textQuery.json](textQuery.json) |
 
 # Text Query Properties
 

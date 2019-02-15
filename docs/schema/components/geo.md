@@ -8,7 +8,7 @@ Schemas for GeoJson
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Cannot be instantiated | Yes | Experimental | No | Forbidden | Permitted | [schema/components/geo.json](schema/components/geo.json) |
+| Cannot be instantiated | Yes | Experimental | No | Forbidden | Permitted | [geo.json](geo.json) |
 
 # Geometry Definitions
 
@@ -33,7 +33,7 @@ Array type: reference
 
 All items must be of the type:
 
-* [polygon](schema/components/geo.md#/definitions/polygon)
+* [polygon](geo.md#/definitions/polygon)
 
 
 

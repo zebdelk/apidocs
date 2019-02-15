@@ -8,7 +8,7 @@ The shape of a search request body that can be sent to the OneStop API to execut
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/request.json](schema/request.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [request.json](request.json) |
 
 # Search Request Properties
 
@@ -55,7 +55,7 @@ Array type: reference
 
 All items must be of the type:
 
-* [filter](schema/components/filter.md)
+* [filter](components/filter.md)
 
 
 
@@ -151,7 +151,7 @@ Array type: reference
 
 All items must be of the type:
 
-* [query](schema/components/query.md)
+* [query](components/query.md)
 
 
 

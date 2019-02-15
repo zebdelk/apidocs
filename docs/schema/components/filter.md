@@ -7,7 +7,7 @@
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Permitted | [schema/components/filter.json](schema/components/filter.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Permitted | [filter.json](filter.json) |
 
 
 **One** of the following *conditions* need to be fulfilled.
@@ -17,40 +17,40 @@
 
 
 
-* [datetimeFilter](schema/components/datetimeFilter.md)
+* [datetimeFilter](datetimeFilter.md)
 
 
 #### Condition 2
 
 
 
-* [yearFilter](schema/components/yearFilter.md)
+* [yearFilter](yearFilter.md)
 
 
 #### Condition 3
 
 
 
-* [facetFilter](schema/components/facetFilter.md)
+* [facetFilter](facetFilter.md)
 
 
 #### Condition 4
 
 
 
-* [geometryFilter](schema/components/geometryFilter.md)
+* [geometryFilter](geometryFilter.md)
 
 
 #### Condition 5
 
 
 
-* [collectionFilter](schema/components/collectionFilter.md)
+* [collectionFilter](collectionFilter.md)
 
 
 #### Condition 6
 
 
 
-* [excludeGlobalFilter](schema/components/excludeGlobalFilter.md)
+* [excludeGlobalFilter](excludeGlobalFilter.md)
 

@@ -8,7 +8,7 @@ Filter results by before, after, or a date range.
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/datetimeFilter.json](schema/components/datetimeFilter.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [datetimeFilter.json](datetimeFilter.json) |
 
 # Datetime Filter Properties
 

@@ -8,7 +8,7 @@ Flag to request that geospatially global results be excluded. Defaults to false 
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/excludeGlobalFilter.json](schema/components/excludeGlobalFilter.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [excludeGlobalFilter.json](excludeGlobalFilter.json) |
 
 # Exclude Global Filter Properties
 

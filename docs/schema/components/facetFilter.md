@@ -8,7 +8,7 @@ Filters results based on given GCMD keywords where returned results MUST have th
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/facetFilter.json](schema/components/facetFilter.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [facetFilter.json](facetFilter.json) |
 
 # Facet Filter Properties
 

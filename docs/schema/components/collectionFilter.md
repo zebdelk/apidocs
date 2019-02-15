@@ -8,7 +8,7 @@ Collections to filter results by (logical OR if multiple filters or multiple val
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/collectionFilter.json](schema/components/collectionFilter.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [collectionFilter.json](collectionFilter.json) |
 
 # Collection Filter Properties
 

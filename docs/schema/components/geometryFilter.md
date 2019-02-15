@@ -8,7 +8,7 @@ Filter that returns results whose bounding geometry contains the specified geogr
 
 | Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/geometryFilter.json](schema/components/geometryFilter.json) |
+| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [geometryFilter.json](geometryFilter.json) |
 
 # Geometry Filter Properties
 
@@ -31,7 +31,7 @@ Filter that returns results whose bounding geometry contains the specified geogr
 
 
 
-* [Geometry](schema/components/geo.md#/Geometry)
+* [Geometry](geo.md#/Geometry)
 
 
 
