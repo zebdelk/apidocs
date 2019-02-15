@@ -1,5 +1,5 @@
 
-#  Schema
+# Collection Filter Schema
 
 ```
 ```
@@ -10,12 +10,12 @@ Collections to filter results by (logical OR if multiple filters or multiple val
 |----------|------------|--------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [schema/components/collectionFilter.json](schema/components/collectionFilter.json) |
 
-#  Properties
+# Collection Filter Properties
 
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
-| [type](#type) | `enum` | **Required** |  (this schema) |
-| [values](#values) | `string[]` | **Required** |  (this schema) |
+| [type](#type) | `enum` | **Required** | Collection Filter (this schema) |
+| [values](#values) | `string[]` | **Required** | Collection Filter (this schema) |
 
 ## type
 
@@ -52,12 +52,3 @@ Array type: `string[]`
 
 All items must be of the type:
 `string`
-
-
-
-
-
-
-
-
-
