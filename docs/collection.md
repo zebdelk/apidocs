@@ -16,9 +16,7 @@
 
 ## Paths
 
-### `HEAD` /collection
-<a id="op-head-collection" />
-
+### <span id="op-head-collection" > `HEAD` /collection </span>
 > Get Collection Info
 
 
@@ -45,9 +43,7 @@ _No headers specified_
 </div>
 </div>
 
-### `GET` /collection
-<a id="op-get-collection" />
-
+### <span id="op-get-collection" > `GET` /collection </span>
 > Get Collection Info
 
 
@@ -138,9 +134,7 @@ _No headers specified_
 </div>
 </div>
 
-### `HEAD` /collection/{id}
-<a id="op-head-collection-id" />
-
+### <span id="op-head-collection-id" > `HEAD` /collection/{id} </span>
 > Collection by ID
 
 
@@ -204,9 +198,7 @@ _No headers specified_
 </div>
 </div>
 
-### `GET` /collection/{id}
-<a id="op-get-collection-id" />
-
+### <span id="op-get-collection-id" > `GET` /collection/{id} </span>
 > Collection by ID
 
 
@@ -328,9 +320,7 @@ _No headers specified_
 </div>
 </div>
 
-### `POST` /search/collection
-<a id="op-post-search-collection" />
-
+### <span id="op-post-search-collection" > `POST` /search/collection </span>
 > Retrieve collection metadata
 
 Retrieve collection metadata records matching the text query string, spatial, and/or temporal filter.

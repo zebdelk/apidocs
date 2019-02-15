@@ -16,9 +16,7 @@
 
 ## Paths
 
-### `HEAD` /granule
-<a id="op-head-granule" />
-
+### <span id="op-head-granule" > `HEAD` /granule </span>
 > Get Granule Info
 
 
@@ -45,9 +43,7 @@ _No headers specified_
 </div>
 </div>
 
-### `GET` /granule
-<a id="op-get-granule" />
-
+### <span id="op-get-granule" > `GET` /granule </span>
 > Get Granule Info
 
 
@@ -67,7 +63,6 @@ _No headers specified_
 _No headers specified_
 
 ###### application/json
-
 
 
 [](.)
@@ -139,9 +134,7 @@ _No headers specified_
 </div>
 </div>
 
-### `HEAD` /granule/{id}
-<a id="op-head-granule-id" />
-
+### <span id="op-head-granule-id" > `HEAD` /granule/{id} </span>
 > Granule by ID
 
 
@@ -205,9 +198,7 @@ _No headers specified_
 </div>
 </div>
 
-### `GET` /granule/{id}
-<a id="op-get-granule-id" />
-
+### <span id="op-get-granule-id" > `GET` /granule/{id} </span>
 > Granule by ID
 
 
@@ -271,9 +262,7 @@ _No headers specified_
 </div>
 </div>
 
-### `POST` /search/granule
-<a id="op-post-search-granule" />
-
+### <span id="op-post-search-granule" > `POST` /search/granule </span>
 > Retrieve granule metadata
 
 Retrieve granule metadata records matching the text query string, spatial, and/or temporal filter.
@@ -286,7 +275,6 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
 [object Object]
 
 ###### application/json
-
 
 
 
@@ -375,8 +363,8 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T18:11:27Z",
-      "after": "2019-02-15T18:11:27Z",
+      "before": "2019-02-15T19:35:04Z",
+      "after": "2019-02-15T19:35:04Z",
       "relation": "contains"
     }
   ],
@@ -402,7 +390,6 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
 _No headers specified_
 
 ###### application/json
-
 
 
 [](.)

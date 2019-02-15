@@ -16,9 +16,7 @@ Flattened granules are a representation of the granules which inherit all the me
 
 ## Paths
 
-### `HEAD` /flattened-granule
-<a id="op-head-flattened-granule" />
-
+### <span id="op-head-flattened-granule" > `HEAD` /flattened-granule </span>
 > Get Flattened Granule Info
 
 
@@ -45,9 +43,7 @@ _No headers specified_
 </div>
 </div>
 
-### `GET` /flattened-granule
-<a id="op-get-flattened-granule" />
-
+### <span id="op-get-flattened-granule" > `GET` /flattened-granule </span>
 > Get Flattened Granule Info
 
 
@@ -67,7 +63,6 @@ _No headers specified_
 _No headers specified_
 
 ###### application/json
-
 
 
 [](.)
@@ -139,9 +134,7 @@ _No headers specified_
 </div>
 </div>
 
-### `HEAD` /flattened-granule/{id}
-<a id="op-head-flattened-granule-id" />
-
+### <span id="op-head-flattened-granule-id" > `HEAD` /flattened-granule/{id} </span>
 > Flattened Granule by ID
 
 
@@ -205,9 +198,7 @@ _No headers specified_
 </div>
 </div>
 
-### `GET` /flattened-granule/{id}
-<a id="op-get-flattened-granule-id" />
-
+### <span id="op-get-flattened-granule-id" > `GET` /flattened-granule/{id} </span>
 > Flattened Granule by ID
 
 
@@ -271,9 +262,7 @@ _No headers specified_
 </div>
 </div>
 
-### `POST` /search/flattened-granule
-<a id="op-post-search-flattened-granule" />
-
+### <span id="op-post-search-flattened-granule" > `POST` /search/flattened-granule </span>
 > Retrieve flattened granule metadata
 
 Retrieve flattened granule metadata records matching the text query string, spatial, and/or temporal filter.
@@ -286,7 +275,6 @@ Retrieve flattened granule metadata records matching the text query string, spat
 [object Object]
 
 ###### application/json
-
 
 
 
@@ -375,8 +363,8 @@ Retrieve flattened granule metadata records matching the text query string, spat
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T18:11:28Z",
-      "after": "2019-02-15T18:11:28Z",
+      "before": "2019-02-15T19:35:06Z",
+      "after": "2019-02-15T19:35:06Z",
       "relation": "contains"
     }
   ],
@@ -402,7 +390,6 @@ Retrieve flattened granule metadata records matching the text query string, spat
 _No headers specified_
 
 ###### application/json
-
 
 
 [](.)
