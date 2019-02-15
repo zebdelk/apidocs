@@ -16,7 +16,7 @@
 
 ## Paths
 
-### <span id="op-head-collection" /> `HEAD` /collection </span>
+### <span id="op-head-collection" > `HEAD` /collection </span>
 > Get Collection Info
 
 
