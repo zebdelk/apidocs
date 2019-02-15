@@ -19,7 +19,6 @@ Filter results by before, after, or a date range. Differs from the Datetime Filt
 
 * is optional
 * type: `number`
-* defined in this schema
 
 ### after Type
 
@@ -32,7 +31,6 @@ Filter results by before, after, or a date range. Differs from the Datetime Filt
 
 
 
-
 ## before
 
 
@@ -40,7 +38,6 @@ Filter results by before, after, or a date range. Differs from the Datetime Filt
 
 * is optional
 * type: `number`
-* defined in this schema
 
 ### before Type
 
@@ -53,7 +50,6 @@ Filter results by before, after, or a date range. Differs from the Datetime Filt
 
 
 
-
 ## relation
 
 How the result time range relates to the query time range, e.g., return all datasets whose time range is within the given time range. Defaults to 'intersects'.
@@ -62,7 +58,6 @@ How the result time range relates to the query time range, e.g., return all data
 
 * is optional
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#relation-known-values).
 
@@ -84,7 +79,6 @@ The value of this property **must** be equal to one of the [known values below](
 
 * is **required**
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#type-known-values).
 

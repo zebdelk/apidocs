@@ -18,14 +18,12 @@ Filter that returns results whose bounding geometry contains the specified geogr
 
 * is **required**
 * type: [Geometry](geo.md#/Geometry)
-* defined in this schema
 
 ### geometry Type
 
 
 
 * [Geometry](geo.md#/Geometry)
-
 
 
 
@@ -38,7 +36,6 @@ How the result geometry relates to the query geometry, e.g., return all datasets
 
 * is optional
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#relation-known-values).
 
@@ -60,7 +57,6 @@ The value of this property **must** be equal to one of the [known values below](
 
 * is **required**
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#type-known-values).
 

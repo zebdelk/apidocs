@@ -17,7 +17,6 @@ Text query to search with that is valid so long as it does not have a leading wi
 
 * is **required**
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#type-known-values).
 
@@ -36,7 +35,6 @@ The value of this property **must** be equal to one of the [known values below](
 
 * is **required**
 * type: `string`
-* defined in this schema
 
 ### value Type
 

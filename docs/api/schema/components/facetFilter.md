@@ -19,7 +19,6 @@ One of the GCMD keyword categories: science, services, locations, instruments, p
 
 * is **required**
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#name-known-values).
 
@@ -47,7 +46,6 @@ The value of this property **must** be equal to one of the [known values below](
 
 * is **required**
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#type-known-values).
 
@@ -67,7 +65,7 @@ Exact match GCMD keyword(s), e.g., "Atmosphere > Atmospheric Temperature > Surfa
 
 * is **required**
 * type: `array`: `string[]`
-* defined in this schema
+
 
 ### values Type
 
@@ -76,7 +74,6 @@ Array type: `array`: `string[]`
 
 All items must be of the type:
 `string`
-
 
 
 

@@ -17,7 +17,6 @@ Flag to request that geospatially global results be excluded. Defaults to false 
 
 * is **required**
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#type-known-values).
 
@@ -36,13 +35,11 @@ The value of this property **must** be equal to one of the [known values below](
 
 * is **required**
 * type: `boolean`
-* defined in this schema
 
 ### value Type
 
 
 `boolean`
-
 
 
 

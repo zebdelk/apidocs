@@ -21,13 +21,11 @@ Flag to request counts of results by GCMD keywords in addition to results. Defau
 
 * is optional
 * type: `boolean`
-* defined in this schema
 
 ### facets Type
 
 
 `boolean`
-
 
 
 
@@ -39,7 +37,7 @@ Flag to request counts of results by GCMD keywords in addition to results. Defau
 
 * is optional
 * type: `array`: [filter](components/filter.md)
-* defined in this schema
+
 
 ### filters Type
 
@@ -56,7 +54,6 @@ All items must be of the type:
 
 
 
-
 ## page
 
 Pagination of results
@@ -65,7 +62,6 @@ Pagination of results
 
 * is optional
 * type: `object`
-* defined in this schema
 
 ### page Type
 
@@ -135,7 +131,7 @@ Number of records by which to offset results. If the page object is not provided
 
 * is optional
 * type: `array`: [query](components/query.md)
-* defined in this schema
+
 
 ### queries Type
 
@@ -152,7 +148,6 @@ All items must be of the type:
 
 
 
-
 ## summary
 
 Flag to request summary of search results instead of full set of attributes. Defaults to true if not provided.
@@ -161,13 +156,11 @@ Flag to request summary of search results instead of full set of attributes. Def
 
 * is optional
 * type: `boolean`
-* defined in this schema
 
 ### summary Type
 
 
 `boolean`
-
 
 
 

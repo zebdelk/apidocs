@@ -17,7 +17,7 @@ Schemas for GeoJson
 
 * is optional
 * type: `array`: [polygon](geo.md#/definitions/polygon)
-* defined in this schema
+
 
 ### coordinates Type
 
@@ -34,7 +34,6 @@ All items must be of the type:
 
 
 
-
 ## type
 
 
@@ -42,7 +41,6 @@ All items must be of the type:
 
 * is optional
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#type-known-values).
 

@@ -17,7 +17,6 @@ Collections to filter results by (logical OR if multiple filters or multiple val
 
 * is **required**
 * type: `enum`
-* defined in this schema
 
 The value of this property **must** be equal to one of the [known values below](#type-known-values).
 
@@ -36,7 +35,7 @@ The value of this property **must** be equal to one of the [known values below](
 
 * is **required**
 * type: `array`: `string[]`
-* defined in this schema
+
 
 ### values Type
 
@@ -45,7 +44,6 @@ Array type: `array`: `string[]`
 
 All items must be of the type:
 `string`
-
 
 
 
