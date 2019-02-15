@@ -9,7 +9,7 @@ Filters results based on given GCMD keywords where returned results MUST have th
 |----------|------|----------|------------|
 | [name](#name) | `enum` | **Required** | Facet Filter (this schema) |
 | [type](#type) | `enum` | **Required** | Facet Filter (this schema) |
-| [values](#values) | `string[]` | **Required** | Facet Filter (this schema) |
+| [values](#values) | `array`: `string[]` | **Required** | Facet Filter (this schema) |
 
 ## name
 
@@ -66,13 +66,13 @@ Exact match GCMD keyword(s), e.g., "Atmosphere > Atmospheric Temperature > Surfa
 `values`
 
 * is **required**
-* type: `string[]`
+* type: `array`: `string[]`
 * defined in this schema
 
 ### values Type
 
 
-Array type: `string[]`
+Array type: `array`: `string[]`
 
 All items must be of the type:
 `string`

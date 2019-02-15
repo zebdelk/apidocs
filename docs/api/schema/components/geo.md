@@ -7,7 +7,7 @@ Schemas for GeoJson
 
 | Property | Type | Group |
 |----------|------|-------|
-| [coordinates](#coordinates) | [polygon](geo.md#/definitions/polygon) | `#/definitions/MultiPolygon` |
+| [coordinates](#coordinates) | `array`: [polygon](geo.md#/definitions/polygon) | `#/definitions/MultiPolygon` |
 | [type](#type) | `enum` | `#/definitions/MultiPolygon` |
 
 ## coordinates
@@ -16,13 +16,13 @@ Schemas for GeoJson
 `coordinates`
 
 * is optional
-* type: [polygon](geo.md#/definitions/polygon)
+* type: `array`: [polygon](geo.md#/definitions/polygon)
 * defined in this schema
 
 ### coordinates Type
 
 
-Array type: [polygon](geo.md#/definitions/polygon)
+Array type: `array`: [polygon](geo.md#/definitions/polygon)
 
 All items must be of the type:
 

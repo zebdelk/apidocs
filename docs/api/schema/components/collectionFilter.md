@@ -8,7 +8,7 @@ Collections to filter results by (logical OR if multiple filters or multiple val
 | Property | Type | Required | Defined by |
 |----------|------|----------|------------|
 | [type](#type) | `enum` | **Required** | Collection Filter (this schema) |
-| [values](#values) | `string[]` | **Required** | Collection Filter (this schema) |
+| [values](#values) | `array`: `string[]` | **Required** | Collection Filter (this schema) |
 
 ## type
 
@@ -35,13 +35,13 @@ The value of this property **must** be equal to one of the [known values below](
 `values`
 
 * is **required**
-* type: `string[]`
+* type: `array`: `string[]`
 * defined in this schema
 
 ### values Type
 
 
-Array type: `string[]`
+Array type: `array`: `string[]`
 
 All items must be of the type:
 `string`
