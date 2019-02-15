@@ -64,7 +64,6 @@ _No headers specified_
 ###### application/json
 
 
-
 <table>
   <thead>
     <tr>
@@ -247,7 +246,6 @@ _No headers specified_
 ###### application/json
 
 
-
 <table>
   <thead>
     <tr>
@@ -330,75 +328,6 @@ Retrieve collection metadata records matching the text query string, spatial, an
 
 
 [Search Request](schema/request.md)
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Accepted values</th>
-    </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>queries</td>
-        <td>
-          array
-        </td>
-        <td></td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>filters</td>
-        <td>
-          array
-        </td>
-        <td></td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>facets</td>
-        <td>
-          boolean
-        </td>
-        <td>Flag to request counts of results by GCMD keywords in addition to results. Defaults to false if not provided.</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>summary</td>
-        <td>
-          boolean
-        </td>
-        <td>Flag to request summary of search results instead of full set of attributes. Defaults to true if not provided.</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>page</td>
-        <td>
-          object
-        </td>
-        <td>Pagination of results</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>page.max <strong>(required)</strong></td>
-        <td>
-          integer
-        </td>
-        <td>Maximum number of results returned. If the page object is not provided, this defaults to 10.</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>page.offset <strong>(required)</strong></td>
-        <td>
-          integer
-        </td>
-        <td>Number of records by which to offset results. If the page object is not provided, this defaults to 0.</td>
-        <td><em>Any</em></td>
-      </tr>
-  </tbody>
-</table>
 
 
 ##### Example
@@ -532,7 +461,6 @@ _No headers specified_
 ###### application/json
 
 
-
 <table>
   <thead>
     <tr>
@@ -644,7 +572,6 @@ _No headers specified_
 
 #### fullCollectionResponse
 
-
 <table>
   <thead>
     <tr>
@@ -700,7 +627,6 @@ _No headers specified_
 
 #### collectionMetadataObject
 
-
 <table>
   <thead>
     <tr>
@@ -731,7 +657,6 @@ _No headers specified_
 ```
 
 #### collectionDataObject
-
 
 <table>
   <thead>

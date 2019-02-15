@@ -64,7 +64,6 @@ _No headers specified_
 ###### application/json
 
 
-
 <table>
   <thead>
     <tr>
@@ -274,75 +273,6 @@ Retrieve flattened granule metadata records matching the text query string, spat
 
 [Search Request](schema/request.md)
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Accepted values</th>
-    </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>queries</td>
-        <td>
-          array
-        </td>
-        <td></td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>filters</td>
-        <td>
-          array
-        </td>
-        <td></td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>facets</td>
-        <td>
-          boolean
-        </td>
-        <td>Flag to request counts of results by GCMD keywords in addition to results. Defaults to false if not provided.</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>summary</td>
-        <td>
-          boolean
-        </td>
-        <td>Flag to request summary of search results instead of full set of attributes. Defaults to true if not provided.</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>page</td>
-        <td>
-          object
-        </td>
-        <td>Pagination of results</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>page.max <strong>(required)</strong></td>
-        <td>
-          integer
-        </td>
-        <td>Maximum number of results returned. If the page object is not provided, this defaults to 10.</td>
-        <td><em>Any</em></td>
-      </tr>
-      <tr>
-        <td>page.offset <strong>(required)</strong></td>
-        <td>
-          integer
-        </td>
-        <td>Number of records by which to offset results. If the page object is not provided, this defaults to 0.</td>
-        <td><em>Any</em></td>
-      </tr>
-  </tbody>
-</table>
-
 
 ##### Example _(generated)_
 
@@ -357,8 +287,8 @@ Retrieve flattened granule metadata records matching the text query string, spat
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T19:52:22Z",
-      "after": "2019-02-15T19:52:22Z",
+      "before": "2019-02-15T20:46:36Z",
+      "after": "2019-02-15T20:46:36Z",
       "relation": "contains"
     }
   ],
@@ -384,7 +314,6 @@ Retrieve flattened granule metadata records matching the text query string, spat
 _No headers specified_
 
 ###### application/json
-
 
 
 <table>

@@ -6,10 +6,6 @@
 
 Text query to search with that is valid so long as it does not have a leading wildcard ('*' or '?')
 
-| Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
-|----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [textQuery.json](textQuery.json) |
-
 # Text Query Properties
 
 | Property | Type | Required | Defined by |

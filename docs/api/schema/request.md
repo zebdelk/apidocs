@@ -6,10 +6,6 @@
 
 The shape of a search request body that can be sent to the OneStop API to execute a search against available metadata. Collections are returned by default unless a collection filter is included, resulting in granules being returned.
 
-| Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
-|----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [request.json](request.json) |
-
 # Search Request Properties
 
 | Property | Type | Required | Defined by |

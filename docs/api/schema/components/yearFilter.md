@@ -6,10 +6,6 @@
 
 Filter results by before, after, or a date range. Differs from the Datetime Filter in that it handles year values only.
 
-| Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
-|----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [yearFilter.json](yearFilter.json) |
-
 # Year Filter Properties
 
 | Property | Type | Required | Defined by |

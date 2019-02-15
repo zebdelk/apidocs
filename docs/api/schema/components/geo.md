@@ -6,10 +6,6 @@
 
 Schemas for GeoJson
 
-| Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
-|----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Cannot be instantiated | Yes | Experimental | No | Forbidden | Permitted | [geo.json](geo.json) |
-
 # Geometry Definitions
 
 | Property | Type | Group |

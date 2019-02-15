@@ -6,10 +6,6 @@
 
 Filters results based on given GCMD keywords where returned results MUST have the specified keyword. Multiple facetFilter objects will be combined with logical AND; multiple values in a single facetFilter object will be combined with the logical OR.
 
-| Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
-|----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [facetFilter.json](facetFilter.json) |
-
 # Facet Filter Properties
 
 | Property | Type | Required | Defined by |

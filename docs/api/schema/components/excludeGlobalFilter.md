@@ -6,10 +6,6 @@
 
 Flag to request that geospatially global results be excluded. Defaults to false if not provided.
 
-| Abstract | Extensible | Status | Identifiable | Custom Properties | Additional Properties | Defined In |
-|----------|------------|--------|--------------|-------------------|-----------------------|------------|
-| Can be instantiated | No | Experimental | No | Forbidden | Forbidden | [excludeGlobalFilter.json](excludeGlobalFilter.json) |
-
 # Exclude Global Filter Properties
 
 | Property | Type | Required | Defined by |
