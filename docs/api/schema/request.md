@@ -10,8 +10,6 @@ The shape of a search request body that can be sent to the OneStop API to execut
 | facets| boolean| | false |
 | summary| boolean| | true |
 | page| object| [Pagination](components/page.md)|  |
-| page.max **(required)**| integer| | 10 |
-| page.offset **(required)**| integer| | 0 |
 
 
 ## queries

@@ -7,24 +7,6 @@ Filter that returns results whose bounding geometry contains the specified geogr
 |------|------|--------|---------|
 | type **(required)**| enum| `geometry`|  |
 | geometry **(required)**| oneOf| [Geometry](geo.md)|  |
-  | geometry.0 **(required)**| object| |  |
-  | geometry.0.type **(required)**| enum| `Point`|  |
-  | geometry.0.coordinates **(required)**| array| |  |
-  | geometry.1 **(required)**| | |  |
-  | geometry.1.type **(required)**| enum| `MultiPoint`|  |
-  | geometry.1.coordinates **(required)**| array(array)| |  |
-  | geometry.2 **(required)**| | |  |
-  | geometry.2.type **(required)**| enum| `LineString`|  |
-  | geometry.2.coordinates **(required)**| | |  |
-  | geometry.3 **(required)**| | |  |
-  | geometry.3.type **(required)**| enum| `MultiLineString`|  |
-  | geometry.3.coordinates **(required)**| array| |  |
-  | geometry.4 **(required)**| | |  |
-  | geometry.4.type **(required)**| enum| `Polygon`|  |
-  | geometry.4.coordinates **(required)**| array| |  |
-  | geometry.5 **(required)**| | |  |
-  | geometry.5.type **(required)**| enum| `MultiPolygon`|  |
-  | geometry.5.coordinates **(required)**| array(array)| |  |
 | relation| enum| `contains`, `disjoint`, `intersects`, `within`| intersects |
 
 
