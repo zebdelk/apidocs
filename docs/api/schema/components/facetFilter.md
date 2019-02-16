@@ -21,8 +21,7 @@ enum
 
 
 #### Accepted Values:
-* Enum:
-  - facet
+* facet
 
 
 
@@ -39,17 +38,16 @@ stringenum
 
 
 #### Accepted Values:
-* Enum:
-  - science
-  - services
-  - locations
-  - instruments
-  - platforms
-  - projects
-  - dataCenters
-  - horizontalResolution
-  - verticalResolution
-  - temporalResolution
+* science
+* services
+* locations
+* instruments
+* platforms
+* projects
+* dataCenters
+* horizontalResolution
+* verticalResolution
+* temporalResolution
 
 
 
@@ -67,7 +65,7 @@ array(string)
 
 #### Accepted Values:
 
-  - Exact match GCMD keyword(s), e.g., &quot;Atmosphere &gt; Atmospheric Temperature &gt; Surface Temperature&quot;
+* Exact match GCMD keyword(s), e.g., &quot;Atmosphere &gt; Atmospheric Temperature &gt; Surface Temperature&quot;
 
 
 

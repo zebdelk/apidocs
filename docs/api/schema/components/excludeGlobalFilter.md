@@ -20,8 +20,7 @@ enum
 
 
 #### Accepted Values:
-* Enum:
-  - excludeGlobal
+* excludeGlobal
 
 
 

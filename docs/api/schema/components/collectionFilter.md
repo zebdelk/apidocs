@@ -20,8 +20,7 @@ enum
 
 
 #### Accepted Values:
-* Enum:
-  - collection
+* collection
 
 
 
@@ -39,7 +38,7 @@ array(string)
 
 #### Accepted Values:
 
-  - Collection UUID
+* Collection UUID
 
 
 

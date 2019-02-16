@@ -22,8 +22,7 @@ enum
 
 
 #### Accepted Values:
-* Enum:
-  - datetime
+* datetime
 
 
 
@@ -78,11 +77,10 @@ intersects
 
 
 #### Accepted Values:
-* Enum:
-  - contains
-  - disjoint
-  - intersects
-  - within
+* contains
+* disjoint
+* intersects
+* within
 
 
 

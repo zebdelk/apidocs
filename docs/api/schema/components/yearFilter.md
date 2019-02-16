@@ -22,8 +22,7 @@ enum
 
 
 #### Accepted Values:
-* Enum:
-  - year
+* year
 
 
 
@@ -74,11 +73,10 @@ intersects
 
 
 #### Accepted Values:
-* Enum:
-  - contains
-  - disjoint
-  - intersects
-  - within
+* contains
+* disjoint
+* intersects
+* within
 
 
 
