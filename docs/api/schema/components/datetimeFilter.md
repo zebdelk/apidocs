@@ -1,5 +1,3 @@
-
-
 # Datetime Filter Schema
 
 Filter results by before, after, or a date range.
@@ -24,7 +22,12 @@ Filter type.
 
 
 #### Accepted Values:
-`datetime`
+* Enum:
+  - datetime
+
+
+
+
 
 ## before
 
@@ -39,6 +42,9 @@ string
 date-time
 
 #### Accepted Values:
+
+
+
 
 
 ## after
@@ -56,6 +62,9 @@ date-time
 #### Accepted Values:
 
 
+
+
+
 ## relation
 
 How the result time range relates to the query time range, e.g., return all datasets whose time range is within the given time range.
@@ -69,6 +78,14 @@ intersects
 
 
 #### Accepted Values:
-`contains`, `disjoint`, `intersects`, `within`
+* Enum:
+  - contains
+  - disjoint
+  - intersects
+  - within
+
+
+
+
 
 

@@ -1,5 +1,3 @@
-
-
 # Geometry Filter Schema
 
 Filter that returns results whose bounding geometry contains the specified geographical coordinate.
@@ -23,7 +21,12 @@ Filter type.
 
 
 #### Accepted Values:
-`geometry`
+* Enum:
+  - geometry
+
+
+
+
 
 ## geometry **(required)**
 
@@ -36,7 +39,11 @@ oneOf
 
 
 #### Accepted Values:
-[Geometry](geo.md)
+  - [Geometry](geo.md)
+
+
+
+
 
 ## relation
 
@@ -51,6 +58,14 @@ intersects
 
 
 #### Accepted Values:
-`contains`, `disjoint`, `intersects`, `within`
+* Enum:
+  - contains
+  - disjoint
+  - intersects
+  - within
+
+
+
+
 
 

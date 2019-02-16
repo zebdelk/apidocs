@@ -1,5 +1,3 @@
-
-
 # Text Query Schema
 
 When providing multiple queryText objects in your search request, keep in mind that they will be combined with a logical AND. Terms use Lucene Query Syntax.
@@ -22,7 +20,12 @@ Filter type.
 
 
 #### Accepted Values:
-`queryText`
+* Enum:
+  - queryText
+
+
+
+
 
 ## value **(required)**
 
@@ -35,6 +38,9 @@ string
 
 
 #### Accepted Values:
+
+
+
 
 
 

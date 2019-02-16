@@ -1,5 +1,3 @@
-
-
 # Collection Filter Schema
 
 Filter granules by specific collection(s). If multiple collection filters are used, or multiple values in a single collection filter, then the search is performed with a logical OR.
@@ -22,7 +20,12 @@ Filter type.
 
 
 #### Accepted Values:
-`collection`
+* Enum:
+  - collection
+
+
+
+
 
 ## values **(required)**
 
@@ -35,7 +38,10 @@ array(string)
 
 
 #### Accepted Values:
-Collection UUID
+
+  - Collection UUID
+
+
 
 
 

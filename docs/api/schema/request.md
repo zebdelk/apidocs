@@ -1,5 +1,3 @@
-
-
 # Search Request Schema
 
 The shape of a search request body that can be sent to the OneStop API to execute a search against available metadata. Collections are returned by default unless a collection filter is included, resulting in granules being returned.
@@ -7,8 +5,8 @@ The shape of a search request body that can be sent to the OneStop API to execut
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| queries| array| |  |
-| filters| array| |  |
+| queries| array| `oneOf`: [Text Query}](components/textQuery.md})|  |
+| filters| array| `oneOf`: [Datetime Filter}](components/datetimeFilter.md}), [Year Filter}](components/yearFilter.md}), [Facet Filter}](components/facetFilter.md}), [Geometry Filter}](components/geometryFilter.md}), [Collection Filter}](components/collectionFilter.md}), [Exclude Global Filter}](components/excludeGlobalFilter.md})|  |
 | facets| boolean| | false |
 | summary| boolean| | true |
 | page| object| [Pagination](components/page.md)|  |
@@ -26,6 +24,11 @@ array
 #### Accepted Values:
 
 
+
+* One Of:
+  - [Text Query](components/textQuery.md)
+
+
 ## filters
 
 
@@ -36,6 +39,16 @@ array
 
 
 #### Accepted Values:
+
+
+
+* One Of:
+  - [Datetime Filter](components/datetimeFilter.md)
+  - [Year Filter](components/yearFilter.md)
+  - [Facet Filter](components/facetFilter.md)
+  - [Geometry Filter](components/geometryFilter.md)
+  - [Collection Filter](components/collectionFilter.md)
+  - [Exclude Global Filter](components/excludeGlobalFilter.md)
 
 
 ## facets
@@ -53,6 +66,9 @@ false
 #### Accepted Values:
 
 
+
+
+
 ## summary
 
 Flag to request summary of search results instead of full set of attributes.
@@ -68,6 +84,9 @@ true
 #### Accepted Values:
 
 
+
+
+
 ## page
 
 Pagination of results
@@ -79,6 +98,10 @@ object
 
 
 #### Accepted Values:
-[Pagination](components/page.md)
+  - [Pagination](components/page.md)
+
+
+
+
 
 

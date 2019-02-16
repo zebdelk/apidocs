@@ -1,5 +1,3 @@
-
-
 # Year Filter Schema
 
 Filter results by before, after, or a date range. Differs from the Datetime Filter in that it handles year values only.
@@ -24,7 +22,12 @@ Filter type.
 
 
 #### Accepted Values:
-`year`
+* Enum:
+  - year
+
+
+
+
 
 ## before
 
@@ -37,6 +40,9 @@ number
 
 
 #### Accepted Values:
+
+
+
 
 
 ## after
@@ -52,6 +58,9 @@ number
 #### Accepted Values:
 
 
+
+
+
 ## relation
 
 How the result time range relates to the query time range, e.g., return all datasets whose time range is within the given time range.
@@ -65,6 +74,14 @@ intersects
 
 
 #### Accepted Values:
-`contains`, `disjoint`, `intersects`, `within`
+* Enum:
+  - contains
+  - disjoint
+  - intersects
+  - within
+
+
+
+
 
 

@@ -1,5 +1,3 @@
-
-
 # Geometry Schema
 
 One geometry as defined by GeoJSON

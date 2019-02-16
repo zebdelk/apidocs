@@ -1,5 +1,3 @@
-
-
 # Pagination Schema
 
 Pagination of results
@@ -26,6 +24,9 @@ integer
 #### Accepted Values:
 
 
+
+
+
 ## offset **(required)**
 
 Number of records by which to offset results.
@@ -39,6 +40,9 @@ integer
 
 
 #### Accepted Values:
+
+
+
 
 
 

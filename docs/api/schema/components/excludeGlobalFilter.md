@@ -1,5 +1,3 @@
-
-
 # Exclude Global Filter Schema
 
 Flag to request that geospatially global results be excluded. Defaults to false if not provided.
@@ -22,7 +20,12 @@ Filter type.
 
 
 #### Accepted Values:
-`excludeGlobal`
+* Enum:
+  - excludeGlobal
+
+
+
+
 
 ## value **(required)**
 
@@ -36,6 +39,9 @@ false
 
 
 #### Accepted Values:
+
+
+
 
 
 

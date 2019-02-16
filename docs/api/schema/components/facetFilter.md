@@ -1,5 +1,3 @@
-
-
 # Facet Filter Schema
 
 Filters results based on given GCMD keywords where returned results MUST have the specified keyword. Multiple facetFilter objects will be combined with logical AND; multiple values in a single facetFilter object will be combined with the logical OR.
@@ -23,7 +21,12 @@ Filter type.
 
 
 #### Accepted Values:
-`facet`
+* Enum:
+  - facet
+
+
+
+
 
 ## name **(required)**
 
@@ -36,7 +39,21 @@ string
 
 
 #### Accepted Values:
-`science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`
+* Enum:
+  - science
+  - services
+  - locations
+  - instruments
+  - platforms
+  - projects
+  - dataCenters
+  - horizontalResolution
+  - verticalResolution
+  - temporalResolution
+
+
+
+
 
 ## values **(required)**
 
@@ -49,7 +66,10 @@ array(string)
 
 
 #### Accepted Values:
-Exact match GCMD keyword(s), e.g., &quot;Atmosphere &gt; Atmospheric Temperature &gt; Surface Temperature&quot;
+
+  - Exact match GCMD keyword(s), e.g., &quot;Atmosphere &gt; Atmospheric Temperature &gt; Surface Temperature&quot;
+
+
 
 
 
