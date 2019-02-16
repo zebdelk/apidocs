@@ -19,20 +19,22 @@ The shape of a search request body that can be sent to the OneStop API to execut
 
 ### Values
 
-Type: array
+#### Type:
+array
 
-
-Accepted Values: [Query](components/query.md)
+#### Accepted Values:
+[Query](components/query.md)
 
 ## filters
 
 
 ### Values
 
-Type: array
+#### Type:
+array
 
-
-Accepted Values: [Filter](components/filter.md)
+#### Accepted Values:
+[Filter](components/filter.md)
 
 ## facets
 
@@ -40,10 +42,11 @@ Flag to request counts of results by GCMD keywords in addition to results.
 
 ### Values
 
-Type: boolean
+#### Type:
+boolean
 
+#### Accepted Values:
 
-Accepted Values: 
 
 ## summary
 
@@ -51,11 +54,13 @@ Flag to request summary of search results instead of full set of attributes.
 
 ### Values
 
-Type: boolean
+#### Type:
+boolean
+#### Default:
+true
 
-Default: true
+#### Accepted Values:
 
-Accepted Values: 
 
 ## page
 
@@ -63,9 +68,10 @@ Pagination of results
 
 ### Values
 
-Type: object
+#### Type:
+object
 
-
-Accepted Values: [Pagination](components/page.md)
+#### Accepted Values:
+[Pagination](components/page.md)
 
 

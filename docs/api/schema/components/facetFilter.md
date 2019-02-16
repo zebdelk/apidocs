@@ -14,13 +14,15 @@ Filters results based on given GCMD keywords where returned results MUST have th
 
 ## type **(required)**
 
+Filter type.
 
 ### Values
 
-Type: 
+#### Type:
 
 
-Accepted Values: `facet`
+#### Accepted Values:
+`facet`
 
 ## name **(required)**
 
@@ -28,10 +30,11 @@ One of the GCMD keyword categories: science, services, locations, instruments, p
 
 ### Values
 
-Type: string
+#### Type:
+string
 
-
-Accepted Values: `science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`
+#### Accepted Values:
+`science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`
 
 ## values **(required)**
 
@@ -39,9 +42,11 @@ List of GCMD keywords.
 
 ### Values
 
-Type: array(string)
+#### Type:
+array(string)
 
+#### Accepted Values:
+Exact match GCMD keyword(s), e.g., &quot;Atmosphere &gt; Atmospheric Temperature &gt; Surface Temperature&quot;
 
-Accepted Values: 
 
 

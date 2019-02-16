@@ -13,22 +13,25 @@ Flag to request that geospatially global results be excluded. Defaults to false 
 
 ## type **(required)**
 
+Filter type.
 
 ### Values
 
-Type: 
+#### Type:
 
 
-Accepted Values: `excludeGlobal`
+#### Accepted Values:
+`excludeGlobal`
 
 ## value **(required)**
 
 
 ### Values
 
-Type: boolean
+#### Type:
+boolean
 
+#### Accepted Values:
 
-Accepted Values: 
 
 

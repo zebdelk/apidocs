@@ -287,8 +287,8 @@ Retrieve granule metadata records matching the text query string, spatial, and/o
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-16T03:10:41Z",
-      "after": "2019-02-16T03:10:41Z",
+      "before": "2019-02-16T03:21:19Z",
+      "after": "2019-02-16T03:21:19Z",
       "relation": "intersects"
     }
   ],

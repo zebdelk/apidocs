@@ -13,13 +13,15 @@ Filter granules by specific collection(s). If multiple collection filters are us
 
 ## type **(required)**
 
+Filter type.
 
 ### Values
 
-Type: 
+#### Type:
 
 
-Accepted Values: `collection`
+#### Accepted Values:
+`collection`
 
 ## values **(required)**
 
@@ -27,9 +29,11 @@ List of collection UUIDs.
 
 ### Values
 
-Type: array(string)
+#### Type:
+array(string)
 
+#### Accepted Values:
+Collection UUID
 
-Accepted Values: 
 
 

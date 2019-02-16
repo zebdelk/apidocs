@@ -17,11 +17,13 @@ Maximum number of results returned.
 
 ### Values
 
-Type: integer
+#### Type:
+integer
+#### Default:
+10
 
-Default: 10
+#### Accepted Values:
 
-Accepted Values: 
 
 ## offset **(required)**
 
@@ -29,9 +31,10 @@ Number of records by which to offset results.
 
 ### Values
 
-Type: integer
+#### Type:
+integer
 
+#### Accepted Values:
 
-Accepted Values: 
 
 

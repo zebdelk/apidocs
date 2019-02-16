@@ -13,13 +13,15 @@ When providing multiple queryText objects in your search request, keep in mind t
 
 ## type **(required)**
 
+Filter type.
 
 ### Values
 
-Type: 
+#### Type:
 
 
-Accepted Values: `queryText`
+#### Accepted Values:
+`queryText`
 
 ## value **(required)**
 
@@ -27,9 +29,10 @@ Text query to search with that is valid so long as it does not have a leading wi
 
 ### Values
 
-Type: string
+#### Type:
+string
 
+#### Accepted Values:
 
-Accepted Values: 
 
 

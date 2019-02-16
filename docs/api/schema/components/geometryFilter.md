@@ -14,13 +14,15 @@ Filter that returns results whose bounding geometry contains the specified geogr
 
 ## type **(required)**
 
+Filter type.
 
 ### Values
 
-Type: 
+#### Type:
 
 
-Accepted Values: `geometry`
+#### Accepted Values:
+`geometry`
 
 ## geometry **(required)**
 
@@ -28,10 +30,11 @@ One geometry as defined by GeoJSON
 
 ### Values
 
-Type: oneOf
+#### Type:
+oneOf
 
+#### Accepted Values:
 
-Accepted Values: 
 
 ## relation
 
@@ -39,10 +42,12 @@ How the result geometry relates to the query geometry, e.g., return all datasets
 
 ### Values
 
-Type: 
+#### Type:
 
-Default: intersects
+#### Default:
+intersects
 
-Accepted Values: `contains`, `disjoint`, `intersects`, `within`
+#### Accepted Values:
+`contains`, `disjoint`, `intersects`, `within`
 
 

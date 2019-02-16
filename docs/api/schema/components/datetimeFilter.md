@@ -15,13 +15,15 @@ Filter results by before, after, or a date range.
 
 ## type **(required)**
 
+Filter type.
 
 ### Values
 
-Type: 
+#### Type:
 
 
-Accepted Values: `datetime`
+#### Accepted Values:
+`datetime`
 
 ## before
 
@@ -29,10 +31,11 @@ End of the date range, e.g., look for all results *before* this date.
 
 ### Values
 
-Type: string
+#### Type:
+string
 
+#### Accepted Values:
 
-Accepted Values: 
 
 ## after
 
@@ -40,10 +43,11 @@ Beginning of the date range, e.g., look for all results *after* this date.
 
 ### Values
 
-Type: string
+#### Type:
+string
 
+#### Accepted Values:
 
-Accepted Values: 
 
 ## relation
 
@@ -51,10 +55,12 @@ How the result time range relates to the query time range, e.g., return all data
 
 ### Values
 
-Type: 
+#### Type:
 
-Default: intersects
+#### Default:
+intersects
 
-Accepted Values: `contains`, `disjoint`, `intersects`, `within`
+#### Accepted Values:
+`contains`, `disjoint`, `intersects`, `within`
 
 
