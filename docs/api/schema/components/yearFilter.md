@@ -5,10 +5,10 @@ Filter results by before, after, or a date range. Differs from the Datetime Filt
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| type **(required)**| | `year`|  |
+| type **(required)**| enum| `year`|  |
 | before| number| |  |
 | after| number| |  |
-| relation| | `contains`, `disjoint`, `intersects`, `within`| intersects |
+| relation| enum| `contains`, `disjoint`, `intersects`, `within`| intersects |
 
 
 ## type **(required)**
@@ -18,7 +18,7 @@ Filter type.
 ### Values
 
 #### Type:
-
+enum
 
 
 #### Accepted Values:
@@ -68,7 +68,7 @@ How the result time range relates to the query time range, e.g., return all data
 ### Values
 
 #### Type:
-
+enum
 #### Default:
 intersects
 

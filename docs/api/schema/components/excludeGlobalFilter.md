@@ -5,7 +5,7 @@ Flag to request that geospatially global results be excluded. Defaults to false 
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| type **(required)**| | `excludeGlobal`|  |
+| type **(required)**| enum| `excludeGlobal`|  |
 | value **(required)**| boolean| | false |
 
 
@@ -16,7 +16,7 @@ Filter type.
 ### Values
 
 #### Type:
-
+enum
 
 
 #### Accepted Values:

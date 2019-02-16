@@ -5,7 +5,7 @@ Filter granules by specific collection(s). If multiple collection filters are us
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| type **(required)**| | `collection`|  |
+| type **(required)**| enum| `collection`|  |
 | values **(required)**| array(string)| |  |
 
 
@@ -16,7 +16,7 @@ Filter type.
 ### Values
 
 #### Type:
-
+enum
 
 
 #### Accepted Values:

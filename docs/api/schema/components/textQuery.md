@@ -5,7 +5,7 @@ When providing multiple queryText objects in your search request, keep in mind t
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| type **(required)**| | `queryText`|  |
+| type **(required)**| enum| `queryText`|  |
 | value **(required)**| string| |  |
 
 
@@ -16,7 +16,7 @@ Filter type.
 ### Values
 
 #### Type:
-
+enum
 
 
 #### Accepted Values:

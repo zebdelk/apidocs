@@ -5,9 +5,9 @@ Filter that returns results whose bounding geometry contains the specified geogr
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| type **(required)**| | `geometry`|  |
+| type **(required)**| enum| `geometry`|  |
 | geometry **(required)**| oneOf| [Geometry](geo.md)|  |
-| relation| | `contains`, `disjoint`, `intersects`, `within`| intersects |
+| relation| enum| `contains`, `disjoint`, `intersects`, `within`| intersects |
 
 
 ## type **(required)**
@@ -17,7 +17,7 @@ Filter type.
 ### Values
 
 #### Type:
-
+enum
 
 
 #### Accepted Values:
@@ -52,7 +52,7 @@ How the result geometry relates to the query geometry, e.g., return all datasets
 ### Values
 
 #### Type:
-
+enum
 #### Default:
 intersects
 

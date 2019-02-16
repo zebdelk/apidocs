@@ -5,8 +5,8 @@ Filters results based on given GCMD keywords where returned results MUST have th
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| type **(required)**| | `facet`|  |
-| name **(required)**| string| `science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`|  |
+| type **(required)**| enum| `facet`|  |
+| name **(required)**| stringenum| `science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`|  |
 | values **(required)**| array(string)| |  |
 
 
@@ -17,7 +17,7 @@ Filter type.
 ### Values
 
 #### Type:
-
+enum
 
 
 #### Accepted Values:
@@ -35,7 +35,7 @@ One of the GCMD keyword categories: science, services, locations, instruments, p
 ### Values
 
 #### Type:
-string
+stringenum
 
 
 #### Accepted Values:
