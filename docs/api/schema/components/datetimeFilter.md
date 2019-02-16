@@ -1,91 +1,60 @@
 
+
 # Datetime Filter Schema
 
 Filter results by before, after, or a date range.
 
-# Datetime Filter Properties
 
-| Property | Type | Required |
-|----------|------|----------|
-| [after](#after) | `string` | Optional |
-| [before](#before) | `string` | Optional |
-| [relation](#relation) | `enum` | Optional |
-| [type](#type) | `enum` | **Required** |
-
-## after
+| Name | Type | Accepted Values | Default |
+|------|------|--------|---------|
+| type **(required)**| | `datetime`|  |
+| before| string| |  |
+| after| string| |  |
+| relation| | `contains`, `disjoint`, `intersects`, `within`| intersects |
 
 
-`after`
-
-* is optional
-* type: `string`
-
-### after Type
+## type **(required)**
 
 
-`string`
+### Values
 
-* format: `date-time` – date and time (according to [RFC 3339, section 5.6](http://tools.ietf.org/html/rfc3339))
-
-
+Type: 
 
 
+Accepted Values: `datetime`
 
 ## before
 
+End of the date range, e.g., look for all results *before* this date.
 
-`before`
+### Values
 
-* is optional
-* type: `string`
-
-### before Type
+Type: string
 
 
-`string`
+Accepted Values: 
 
-* format: `date-time` – date and time (according to [RFC 3339, section 5.6](http://tools.ietf.org/html/rfc3339))
+## after
+
+Beginning of the date range, e.g., look for all results *after* this date.
+
+### Values
+
+Type: string
 
 
-
-
+Accepted Values: 
 
 ## relation
 
-How the result time range relates to the query time range, e.g., return all datasets whose time range is within the given time range. Defaults to 'intersects'.
+How the result time range relates to the query time range, e.g., return all datasets whose time range is within the given time range.
 
-`relation`
+### Values
 
-* is optional
-* type: `enum`
+Type: 
 
-The value of this property **must** be equal to one of the [known values below](#relation-known-values).
+Default: intersects
 
-### relation Known Values
-| Value | Description |
-|-------|-------------|
-| `contains` |  |
-| `disjoint` |  |
-| `intersects` |  |
-| `within` |  |
-
-
-
-
-## type
-
-
-`type`
-
-* is **required**
-* type: `enum`
-
-The value of this property **must** be equal to one of the [known values below](#type-known-values).
-
-### type Known Values
-| Value | Description |
-|-------|-------------|
-| `datetime` |  |
-
+Accepted Values: `contains`, `disjoint`, `intersects`, `within`
 
 

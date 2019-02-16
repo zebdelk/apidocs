@@ -1,69 +1,48 @@
 
+
 # Geometry Filter Schema
 
 Filter that returns results whose bounding geometry contains the specified geographical coordinate.
 
-# Geometry Filter Properties
 
-| Property | Type | Required |
-|----------|------|----------|
-| [geometry](#geometry) | [Geometry](geo.md#/Geometry) | **Required** |
-| [relation](#relation) | `enum` | Optional |
-| [type](#type) | `enum` | **Required** |
-
-## geometry
+| Name | Type | Accepted Values | Default |
+|------|------|--------|---------|
+| type **(required)**| | `geometry`|  |
+| geometry **(required)**| oneOf| |  |
+| relation| | `contains`, `disjoint`, `intersects`, `within`| intersects |
 
 
-`geometry`
-
-* is **required**
-* type: [Geometry](geo.md#/Geometry)
-
-### geometry Type
+## type **(required)**
 
 
+### Values
 
-* [Geometry](geo.md#/Geometry)
+Type: 
 
 
+Accepted Values: `geometry`
 
+## geometry **(required)**
+
+One geometry as defined by GeoJSON
+
+### Values
+
+Type: oneOf
+
+
+Accepted Values: 
 
 ## relation
 
-How the result geometry relates to the query geometry, e.g., return all datasets whose geometry contains the given point. Defaults to 'intersects'.
+How the result geometry relates to the query geometry, e.g., return all datasets whose geometry contains the given point.
 
-`relation`
+### Values
 
-* is optional
-* type: `enum`
+Type: 
 
-The value of this property **must** be equal to one of the [known values below](#relation-known-values).
+Default: intersects
 
-### relation Known Values
-| Value | Description |
-|-------|-------------|
-| `contains` |  |
-| `disjoint` |  |
-| `intersects` |  |
-| `within` |  |
-
-
-
-
-## type
-
-
-`type`
-
-* is **required**
-* type: `enum`
-
-The value of this property **must** be equal to one of the [known values below](#type-known-values).
-
-### type Known Values
-| Value | Description |
-|-------|-------------|
-| `geometry` |  |
-
+Accepted Values: `contains`, `disjoint`, `intersects`, `within`
 
 

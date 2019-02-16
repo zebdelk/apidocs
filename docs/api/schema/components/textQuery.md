@@ -1,55 +1,35 @@
 
+
 # Text Query Schema
 
-Text query to search with that is valid so long as it does not have a leading wildcard ('*' or '?')
-
-# Text Query Properties
-
-| Property | Type | Required |
-|----------|------|----------|
-| [type](#type) | `enum` | **Required** |
-| [value](#value) | `string` | **Required** |
-
-## type
+When providing multiple queryText objects in your search request, keep in mind that they will be combined with a logical AND. Terms use Lucene Query Syntax.
 
 
-`type`
-
-* is **required**
-* type: `enum`
-
-The value of this property **must** be equal to one of the [known values below](#type-known-values).
-
-### type Known Values
-| Value | Description |
-|-------|-------------|
-| `queryText` |  |
+| Name | Type | Accepted Values | Default |
+|------|------|--------|---------|
+| type **(required)**| | `queryText`|  |
+| value **(required)**| string| |  |
 
 
+## type **(required)**
 
 
-## value
+### Values
+
+Type: 
 
 
-`value`
+Accepted Values: `queryText`
 
-* is **required**
-* type: `string`
+## value **(required)**
 
-### value Type
+Text query to search with that is valid so long as it does not have a leading wildcard (&#x27;*&#x27; or &#x27;?&#x27;)
 
+### Values
 
-`string`
-
-
-
-All instances must conform to this regular expression 
-(test examples [here](https://regexr.com/?expression=%5E(%3F!%5Cs*%5B%5C*%5C%3F%5D%2B).*)):
-```regex
-^(?!\s*[\*\?]+).*
-```
+Type: string
 
 
-
+Accepted Values: 
 
 

@@ -287,15 +287,15 @@ Retrieve flattened granule metadata records matching the text query string, spat
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-15T20:46:36Z",
-      "after": "2019-02-15T20:46:36Z",
-      "relation": "contains"
+      "before": "2019-02-16T03:10:42Z",
+      "after": "2019-02-16T03:10:42Z",
+      "relation": "intersects"
     }
   ],
-  "facets": true,
+  "facets": false,
   "summary": true,
   "page": {
-    "max": 0,
+    "max": 10,
     "offset": 0
   }
 }
@@ -386,8 +386,8 @@ _No headers specified_
       "attributes": {
         "title": "string",
         "thumbnail": "http://example.com",
-        "beginYear": "2019-02-15",
-        "endYear": "2019-02-15",
+        "beginYear": "2019-02-16",
+        "endYear": "2019-02-16",
         "spatialBounding": {
           "type": "Point",
           "coordinates": [

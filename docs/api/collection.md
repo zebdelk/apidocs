@@ -531,8 +531,8 @@ _No headers specified_
       "attributes": {
         "title": "string",
         "thumbnail": "http://example.com",
-        "beginYear": "2019-02-15",
-        "endYear": "2019-02-15",
+        "beginYear": "2019-02-16",
+        "endYear": "2019-02-16",
         "spatialBounding": {
           "type": "Point",
           "coordinates": [

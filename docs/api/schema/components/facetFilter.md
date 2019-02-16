@@ -1,84 +1,47 @@
 
+
 # Facet Filter Schema
 
 Filters results based on given GCMD keywords where returned results MUST have the specified keyword. Multiple facetFilter objects will be combined with logical AND; multiple values in a single facetFilter object will be combined with the logical OR.
 
-# Facet Filter Properties
 
-| Property | Type | Required |
-|----------|------|----------|
-| [name](#name) | `enum` | **Required** |
-| [type](#type) | `enum` | **Required** |
-| [values](#values) | `array`: `string[]` | **Required** |
+| Name | Type | Accepted Values | Default |
+|------|------|--------|---------|
+| type **(required)**| | `facet`|  |
+| name **(required)**| string| `science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`|  |
+| values **(required)**| array(string)| |  |
 
-## name
+
+## type **(required)**
+
+
+### Values
+
+Type: 
+
+
+Accepted Values: `facet`
+
+## name **(required)**
 
 One of the GCMD keyword categories: science, services, locations, instruments, platforms, projects, dataCenters, horizontalResolution, verticalResolution, temporalResolution.
 
-`name`
+### Values
 
-* is **required**
-* type: `enum`
-
-The value of this property **must** be equal to one of the [known values below](#name-known-values).
-
-### name Known Values
-| Value | Description |
-|-------|-------------|
-| `science` |  |
-| `services` |  |
-| `locations` |  |
-| `instruments` |  |
-| `platforms` |  |
-| `projects` |  |
-| `dataCenters` |  |
-| `horizontalResolution` |  |
-| `verticalResolution` |  |
-| `temporalResolution` |  |
+Type: string
 
 
+Accepted Values: `science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`
+
+## values **(required)**
+
+List of GCMD keywords.
+
+### Values
+
+Type: array(string)
 
 
-## type
-
-
-`type`
-
-* is **required**
-* type: `enum`
-
-The value of this property **must** be equal to one of the [known values below](#type-known-values).
-
-### type Known Values
-| Value | Description |
-|-------|-------------|
-| `facet` |  |
-
-
-
-
-## values
-
-Exact match GCMD keyword(s), e.g., "Atmosphere > Atmospheric Temperature > Surface Temperature"
-
-`values`
-
-* is **required**
-* type: `array`: `string[]`
-
-
-### values Type
-
-
-Array type: `array`: `string[]`
-
-All items must be of the type:
-`string`
-
-
-
-
-
-
+Accepted Values: 
 
 
