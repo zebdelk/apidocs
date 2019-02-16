@@ -46,6 +46,8 @@ Flag to request counts of results by GCMD keywords in addition to results.
 
 #### Type:
 boolean
+#### Default:
+false
 
 
 #### Accepted Values:

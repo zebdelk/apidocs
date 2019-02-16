@@ -34,6 +34,8 @@ Number of records by which to offset results.
 
 #### Type:
 integer
+#### Default:
+0
 
 
 #### Accepted Values:

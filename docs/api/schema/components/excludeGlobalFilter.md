@@ -31,6 +31,8 @@ Filter type.
 
 #### Type:
 boolean
+#### Default:
+false
 
 
 #### Accepted Values:
