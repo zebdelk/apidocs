@@ -5,8 +5,8 @@ The shape of a search request body that can be sent to the OneStop API to execut
 
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
-| queries| array| `oneOf`: [Text Query}](components/textQuery.md})|  |
-| filters| array| `oneOf`: [Datetime Filter}](components/datetimeFilter.md}), [Year Filter}](components/yearFilter.md}), [Facet Filter}](components/facetFilter.md}), [Geometry Filter}](components/geometryFilter.md}), [Collection Filter}](components/collectionFilter.md}), [Exclude Global Filter}](components/excludeGlobalFilter.md})|  |
+| queries| array| `oneOf`: [Text Query](components/textQuery.md)|  |
+| filters| array| `oneOf`: [Datetime Filter](components/datetimeFilter.md), [Year Filter](components/yearFilter.md), [Facet Filter](components/facetFilter.md), [Geometry Filter](components/geometryFilter.md), [Collection Filter](components/collectionFilter.md), [Exclude Global Filter](components/excludeGlobalFilter.md)|  |
 | facets| boolean| | false |
 | summary| boolean| | true |
 | page| object| [Pagination](components/page.md)|  |
