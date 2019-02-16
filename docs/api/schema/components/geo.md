@@ -2,7 +2,7 @@
 
 # Geometry Schema
 
-Schemas for GeoJson
+One geometry as defined by GeoJSON
 
 
 | Name | Type | Accepted Values | Default |

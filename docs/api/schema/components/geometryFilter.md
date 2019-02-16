@@ -8,7 +8,7 @@ Filter that returns results whose bounding geometry contains the specified geogr
 | Name | Type | Accepted Values | Default |
 |------|------|--------|---------|
 | type **(required)**| | `geometry`|  |
-| geometry **(required)**| oneOf| |  |
+| geometry **(required)**| oneOf| [Geometry](geo.md)|  |
 | relation| | `contains`, `disjoint`, `intersects`, `within`| intersects |
 
 
@@ -36,7 +36,7 @@ oneOf
 
 
 #### Accepted Values:
-
+[Geometry](geo.md)
 
 ## relation
 

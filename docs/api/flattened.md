@@ -287,8 +287,8 @@ Retrieve flattened granule metadata records matching the text query string, spat
   "filters": [
     {
       "type": "datetime",
-      "before": "2019-02-16T03:21:20Z",
-      "after": "2019-02-16T03:21:20Z",
+      "before": "2019-02-16T03:46:32Z",
+      "after": "2019-02-16T03:46:32Z",
       "relation": "intersects"
     }
   ],
