@@ -20,6 +20,7 @@ Filter type.
 #### Type:
 
 
+
 #### Accepted Values:
 `collection`
 
@@ -31,6 +32,7 @@ List of collection UUIDs.
 
 #### Type:
 array(string)
+
 
 #### Accepted Values:
 Collection UUID

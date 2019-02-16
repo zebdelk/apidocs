@@ -20,6 +20,7 @@ Filter type.
 #### Type:
 
 
+
 #### Accepted Values:
 `queryText`
 
@@ -31,6 +32,7 @@ Text query to search with that is valid so long as it does not have a leading wi
 
 #### Type:
 string
+
 
 #### Accepted Values:
 

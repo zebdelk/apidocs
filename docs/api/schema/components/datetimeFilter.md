@@ -22,6 +22,7 @@ Filter type.
 #### Type:
 
 
+
 #### Accepted Values:
 `datetime`
 
@@ -34,6 +35,9 @@ End of the date range, e.g., look for all results *before* this date.
 #### Type:
 string
 
+#### Format:
+date-time
+
 #### Accepted Values:
 
 
@@ -45,6 +49,9 @@ Beginning of the date range, e.g., look for all results *after* this date.
 
 #### Type:
 string
+
+#### Format:
+date-time
 
 #### Accepted Values:
 
@@ -59,6 +66,7 @@ How the result time range relates to the query time range, e.g., return all data
 
 #### Default:
 intersects
+
 
 #### Accepted Values:
 `contains`, `disjoint`, `intersects`, `within`

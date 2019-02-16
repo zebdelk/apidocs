@@ -21,6 +21,7 @@ Filter type.
 #### Type:
 
 
+
 #### Accepted Values:
 `facet`
 
@@ -33,6 +34,7 @@ One of the GCMD keyword categories: science, services, locations, instruments, p
 #### Type:
 string
 
+
 #### Accepted Values:
 `science`, `services`, `locations`, `instruments`, `platforms`, `projects`, `dataCenters`, `horizontalResolution`, `verticalResolution`, `temporalResolution`
 
@@ -44,6 +46,7 @@ List of GCMD keywords.
 
 #### Type:
 array(string)
+
 
 #### Accepted Values:
 Exact match GCMD keyword(s), e.g., &quot;Atmosphere &gt; Atmospheric Temperature &gt; Surface Temperature&quot;

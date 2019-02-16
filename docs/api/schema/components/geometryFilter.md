@@ -21,6 +21,7 @@ Filter type.
 #### Type:
 
 
+
 #### Accepted Values:
 `geometry`
 
@@ -32,6 +33,7 @@ One geometry as defined by GeoJSON
 
 #### Type:
 oneOf
+
 
 #### Accepted Values:
 
@@ -46,6 +48,7 @@ How the result geometry relates to the query geometry, e.g., return all datasets
 
 #### Default:
 intersects
+
 
 #### Accepted Values:
 `contains`, `disjoint`, `intersects`, `within`

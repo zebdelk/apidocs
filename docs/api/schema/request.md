@@ -22,6 +22,7 @@ The shape of a search request body that can be sent to the OneStop API to execut
 #### Type:
 array
 
+
 #### Accepted Values:
 [Query](components/query.md)
 
@@ -32,6 +33,7 @@ array
 
 #### Type:
 array
+
 
 #### Accepted Values:
 [Filter](components/filter.md)
@@ -44,6 +46,7 @@ Flag to request counts of results by GCMD keywords in addition to results.
 
 #### Type:
 boolean
+
 
 #### Accepted Values:
 
@@ -59,6 +62,7 @@ boolean
 #### Default:
 true
 
+
 #### Accepted Values:
 
 
@@ -70,6 +74,7 @@ Pagination of results
 
 #### Type:
 object
+
 
 #### Accepted Values:
 [Pagination](components/page.md)
